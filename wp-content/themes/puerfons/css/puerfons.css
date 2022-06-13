@@ -2406,6 +2406,10 @@ html[lang^='zh-hant'] .gold-subheading {
     line-height: 30px;
 }
 
+.pue-section p {
+    display: none;
+}
+
 .page-template-page-template-science-ingredients-nad .pue-section.pue-section-2,
 .page-template-page-template-science-ingredients-nmn .pue-section.pue-section-2 {
     display: block;
