@@ -1,0 +1,2873 @@
+# Translation of Plugins - WooCommerce Admin - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - WooCommerce Admin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-28 19:52:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - WooCommerce Admin - Stable (latest release)\n"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:228
+msgid "Visitors"
+msgstr "访客"
+
+#: src/Notes/WC_Admin_Notes_Install_JP_And_WCS_Plugins.php:55
+msgid "Install plugins"
+msgstr "安装插件"
+
+#: src/Features/Navigation.php:247
+msgid "Import / Export"
+msgstr "导入/导出"
+
+#: src/Notes/WC_Admin_Notes_Install_JP_And_WCS_Plugins.php:47
+msgid "Uh oh... There was a problem during the Jetpack and WooCommerce Services install. Please try again."
+msgstr "糟糕...安装 Jetpack 和 WooCommerce Services 时出现错误。请重试。"
+
+#: src/API/MarketingOverview.php:99
+msgid "The plugin could not be activated."
+msgstr "插件无法激活。"
+
+#: src/Notes/WC_Admin_Notes_WooCommerce_Payments.php:102
+msgid "Try the new way to get paid"
+msgstr "尝试新的收款方式"
+
+#: src/API/Plugins.php:682
+msgid "There was an error communicating with the WooCommerce Payments plugin."
+msgstr "与 WooCommerce Payments 插件通信时出错。"
+
+#: src/Notes/WC_Admin_Notes_Personalize_Store.php:48
+msgid "The homepage is one of the most important entry points in your store. When done right it can lead to higher conversions and engagement. Don't forget to personalize the homepage that we created for your store during the onboarding."
+msgstr "主页是商店最重要的切入点之一。如果主页打造得好，会带来更高的转化率和参与度。在入门阶段，记得将我们为您的商店创建的主页打造成个性化主页。"
+
+#: src/Features/ShippingLabelBanner.php:106
+#: dist/wp-admin-scripts/print-shipping-label-banner.js:4889
+msgid "Shipping Label"
+msgstr "货运标签"
+
+#: src/API/OnboardingProfile.php:323
+msgid "Name of other platform used to sell (not listed)."
+msgstr "用于销售的其他平台的名称（不在列表中）。"
+
+#: src/Notes/WC_Admin_Notes_Personalize_Store.php:51
+msgid "Personalize your store's homepage"
+msgstr "为您的商店打造个性化主页"
+
+#: src/Notes/WC_Admin_Notes_Personalize_Store.php:57
+msgid "Personalize homepage"
+msgstr "打造个性化主页"
+
+#: src/Notes/WC_Admin_Notes_Deactivate_Plugin.php:48
+msgid "Deactivate"
+msgstr "停用"
+
+#: src/Notes/WC_Admin_Notes_Deactivate_Plugin.php:41
+msgid "Your current version of WooCommerce Admin is outdated and a newer version is included with WooCommerce.  We recommend deactivating the plugin and using the stable version included with WooCommerce."
+msgstr "您当前的WooCommerce Admin版本已经过时，并且WooCommerce包含了较新的版本。 我们建议停用插件并使用WooCommerce随附的稳定版本。"
+
+#: src/Notes/WC_Admin_Notes_Deactivate_Plugin.php:40
+msgid "Deactivate old WooCommerce Admin version"
+msgstr "停用旧版本的WooCommerce Admin"
+
+#: src/API/OnboardingTasks.php:443
+msgid "Homepage created."
+msgstr "主页已创建。"
+
+#: src/Notes/WC_Admin_Notes_Onboarding_Profiler.php:47
+msgid "Welcome to WooCommerce! Set up your store and start selling"
+msgstr "欢迎来到WooCommerce！ 设置您的商店并开始销售"
+
+#: src/Notes/WC_Admin_Notes_Onboarding_Profiler.php:48
+msgid "We're here to help you going through the most important steps to get your store up and running."
+msgstr "我们随时待命，帮助您完成启动和运行商店的最重要的步骤。"
+
+#: src/Notes/WC_Admin_Notes_Onboarding_Profiler.php:55
+msgid "Continue Store Setup"
+msgstr "继续商店设置"
+
+#: src/Notes/WC_Admin_Notes_Onboarding_Profiler.php:62
+msgid "Skip Setup"
+msgstr "跳过设置"
+
+#: src/Schedulers/CustomersScheduler.php:200
+msgid "[deleted]"
+msgstr "[已删除]"
+
+#: src/API/OnboardingThemes.php:215
+msgid "Theme status."
+msgstr "主题状态。"
+
+#: src/API/OnboardingThemes.php:209
+msgid "Theme name."
+msgstr "主题名称。"
+
+#: src/API/OnboardingThemes.php:203
+msgid "Theme slug."
+msgstr "主题别名。"
+
+#: src/API/OnboardingThemes.php:181
+msgid "The requested theme could not be activated."
+msgstr "无法激活所请求的主题。"
+
+#. translators: %s: theme slug (example: woocommerce-services)
+#: src/API/OnboardingThemes.php:176
+msgid "Invalid theme %s."
+msgstr "无效的主题 %s 。"
+
+#. translators: %s: theme slug (example: woocommerce-services)
+#: src/API/OnboardingThemes.php:142
+msgid "The requested theme `%s` could not be installed."
+msgstr "无法安装所请求的主题 `%s` 。"
+
+#. translators: %s: theme slug (example: woocommerce-services)
+#: src/API/OnboardingThemes.php:127
+msgid "The requested theme `%s` could not be installed. Theme API call failed."
+msgstr "无法安装所请求的主题 `%s` 。主题 API 调用失败。"
+
+#: src/API/OnboardingThemes.php:92 src/API/OnboardingThemes.php:166
+msgid "Invalid theme."
+msgstr "无效的主题。"
+
+#: src/API/OnboardingThemes.php:76
+msgid "Sorry, you cannot manage themes."
+msgstr "抱歉，您无法管理主题。"
+
+#: src/ReportsSync.php:51
+msgid "Report sync schedulers should be derived from the Automattic\\WooCommerce\\Admin\\Schedulers\\ImportScheduler class."
+msgstr "报告同步计划程序应该派生自 Automattic\\WooCommerce\\Admin\\Schedulers\\ImportScheduler 类。"
+
+#. translators: %s: plugin slug (example: woocommerce-services)
+#: src/API/Plugins.php:273 src/API/Plugins.php:285
+msgid "The requested plugin `%s` could not be installed. Plugin API call failed."
+msgstr "无法安装请求的插件 `%s` 。插件 API 调用失败。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:473
+#: src/API/Reports/Orders/Controller.php:357
+msgid "Limit result set to items that don't have the specified tax rate(s) assigned."
+msgstr "将结果集限制为没有指定特定税率的项目。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:463
+#: src/API/Reports/Orders/Controller.php:347
+msgid "Limit result set to items that have the specified tax rate(s) assigned."
+msgstr "将结果集限制为已指定特定税率的项目。"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:242
+msgid "Gross Sales."
+msgstr "总销售额。"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:178
+#: src/API/Reports/Products/Stats/Controller.php:168
+#: src/API/Reports/Orders/Stats/Controller.php:157
+msgid "Net Sales."
+msgstr "净销售额。"
+
+#: src/API/Reports/Categories/Controller.php:182
+#: src/API/Reports/Revenue/Stats/Controller.php:170
+msgid "Total Sales."
+msgstr "总销售额。"
+
+#: src/Features/Onboarding.php:948
+msgid "To disable the new WooCommerce onboarding experience, click the button below."
+msgstr "要禁用新的 WooCommerce 登录体验，请点击下面的按钮。"
+
+#: src/Features/Onboarding.php:848
+msgid "If you want to try out the new WooCommerce onboarding experience, click the button below."
+msgstr "如果您想尝试新的 WooCommerce 登录体验，请点击下面的按钮。"
+
+#: src/Features/Onboarding.php:847 src/Features/Onboarding.php:947
+msgid "New onboarding experience"
+msgstr "新的登录体验"
+
+#. translators: site currency symbol (used to show that the product costs
+#. money)
+#: src/Features/Onboarding.php:535
+msgid " — %s"
+msgstr "– %s"
+
+#: src/Notes/WC_Admin_Notes_Onboarding_Email_Marketing.php:41
+#: dist/chunks/42.cee7c33db46f1ba078f3.js:1708
+#: dist/chunks/41.d7d58f66bf36ba0ae499.js:1708
+msgid "Yes please!"
+msgstr "是，请继续！"
+
+#: src/Notes/WC_Admin_Notes_Onboarding_Email_Marketing.php:35
+msgid "Tips, product updates, and inspiration"
+msgstr "提示、产品更新和灵感"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:215
+#: src/API/Reports/Revenue/Stats/Controller.php:454
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:178
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:1406
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1308
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2400
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1308
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2400
+#: dist/chunks/15.6543be67a4976e36f9e8.js:178
+#: dist/chunks/15.6543be67a4976e36f9e8.js:1406
+msgid "Returns"
+msgstr "退货"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:453
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:208
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:1434
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1336
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2380
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1336
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2380
+#: dist/chunks/15.6543be67a4976e36f9e8.js:208
+#: dist/chunks/15.6543be67a4976e36f9e8.js:1434
+msgid "Total Sales"
+msgstr "总销售额"
+
+#. translators: 1: URL of WooCommerce plugin, 2: The minimum WooCommerce
+#. version number
+#: src/FeaturePlugin.php:226
+msgid "The WooCommerce Admin feature plugin requires <a href=\"%1$s\">WooCommerce</a> %2$s or greater to be installed and active."
+msgstr "要安装WooCommerce Admin 功能插件，必须安装并激活<a href=\"%1$s\"> WooCommerce </a> %2$s 或更高版本。"
+
+#: src/Notes/WC_Admin_Notes_Tracking_Opt_In.php:69
+msgid "Activate usage tracking"
+msgstr "激活使用情况跟踪"
+
+#: src/Notes/WC_Admin_Notes_Tracking_Opt_In.php:63
+msgid "Help WooCommerce improve with usage tracking"
+msgstr "通过使用情况跟踪帮助WooCommerce改进"
+
+#. translators: 1: open link to WooCommerce.com settings, 2: open link to
+#. WooCommerce.com tracking documentation, 3: close link tag.
+#: src/Notes/WC_Admin_Notes_Tracking_Opt_In.php:50
+msgid "Gathering usage data allows us to improve WooCommerce. Your store will be considered as we evaluate new features, judge the quality of an update, or determine if an improvement makes sense. You can always visit the %1$sSettings%3$s and choose to stop sharing data. %2$sRead more%3$s about what data we collect."
+msgstr "收集使用数据可以使我们改善WooCommerce。 当我们评估新功能，判断更新的质量或确定是否有意义时，将考虑您的商店。 您可以随时访问%1$s设置%3$s并选择停止共享数据。%2$s了解更多%3$s有关我们收集的数据的信息。"
+
+#: src/API/OnboardingTasks.php:304
+msgid "New Products"
+msgstr "新产品"
+
+#: src/API/OnboardingTasks.php:283
+msgid "Best Sellers"
+msgstr "最畅销"
+
+#: src/API/OnboardingTasks.php:277
+msgid "On Sale"
+msgstr "特价中"
+
+#: src/API/OnboardingTasks.php:271
+msgid "Fan Favorites"
+msgstr "粉丝最爱"
+
+#: src/API/OnboardingTasks.php:265
+msgid "New In"
+msgstr "新进"
+
+#: src/API/OnboardingTasks.php:259
+msgid "Shop by Category"
+msgstr "按类别购物"
+
+#: src/API/OnboardingTasks.php:233 src/API/OnboardingTasks.php:240
+msgid "Content…"
+msgstr "内容…"
+
+#: src/API/OnboardingTasks.php:200 src/API/OnboardingTasks.php:215
+msgid "Go shopping"
+msgstr "去购物"
+
+#: src/API/OnboardingTasks.php:196 src/API/OnboardingTasks.php:211
+msgid "Write a short welcome message here"
+msgstr "在这里写下简短的欢迎信息"
+
+#: src/API/OnboardingTasks.php:192 src/API/OnboardingTasks.php:207
+msgid "Welcome to the store"
+msgstr "欢迎来到商店"
+
+#: src/API/OnboardingTasks.php:191 src/API/OnboardingTasks.php:206
+msgid "Write title…"
+msgstr "编写标题…"
+
+#: src/Features/Onboarding.php:299
+msgid "Food and drink"
+msgstr "食品和饮料"
+
+#: src/API/Options.php:115
+msgid "You must supply an array of options and values."
+msgstr "您必须提供一组选项和值。"
+
+#: src/API/Options.php:81
+msgid "Sorry, you cannot view these options."
+msgstr "抱歉，您无法查看这些选项。"
+
+#: src/API/Options.php:76
+msgid "You must supply an array of options."
+msgstr "您必须提供一系列选项。"
+
+#. translators: 1: numeric product quantity, 2: name of product
+#: src/API/Reports/Orders/Controller.php:451
+msgid "%1$s× %2$s"
+msgstr "%1$s× %2$s"
+
+#: src/API/OnboardingProfile.php:214
+msgid "How the Jetpack/WooCommerce Services step was handled."
+msgstr "如何处理Jetpack/WooCommerce服务步骤。"
+
+#: src/API/Leaderboards.php:197 src/API/Leaderboards.php:327
+#: dist/chunks/5.88800d5332efd00d661a.js:1159
+#: dist/chunks/5.88800d5332efd00d661a.js:1160
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:168
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:169
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:552
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:190
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:1418
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:168
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:169
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:552
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:75
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:233
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1320
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1379
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1501
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2384
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1320
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1379
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1501
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2384
+#: dist/chunks/15.6543be67a4976e36f9e8.js:190
+#: dist/chunks/15.6543be67a4976e36f9e8.js:1418
+#: dist/chunks/13.d724fa3061159bd304ed.js:177
+#: dist/chunks/13.d724fa3061159bd304ed.js:178
+#: dist/chunks/13.d724fa3061159bd304ed.js:1534
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:75
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:233
+#: dist/chunks/14.49811bcba1b9d3f84157.js:177
+#: dist/chunks/14.49811bcba1b9d3f84157.js:178
+#: dist/chunks/14.49811bcba1b9d3f84157.js:1534
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1159
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1160
+msgid "Net Sales"
+msgstr "净销售额"
+
+#: src/API/Reports/Export/Controller.php:84
+msgid "When true, email a link to download the export to the requesting user."
+msgstr "如果为true，请通过电子邮件发送链接以将导出内容下载到发出请求的用户。"
+
+#: src/ReportCSVEmail.php:74
+msgid "Your Report Download"
+msgstr "您的报告下载"
+
+#: src/ReportCSVEmail.php:83
+msgid "[{site_title}]: Your {report_name} Report download is ready"
+msgstr "[{site_title}]：您的{report_name}报告下载已准备就绪"
+
+#: src/API/Plugins.php:599
+msgid "There was an error connecting to PayPal."
+msgstr "连接到PayPal时出错。"
+
+#: src/API/Plugins.php:630
+msgid "There was an error connecting to Square."
+msgstr "连接Square时出错。"
+
+#: src/API/Options.php:120
+msgid "Sorry, you cannot manage these options."
+msgstr "抱歉，您无法管理这些选项。"
+
+#: src/API/OnboardingTasks.php:415
+msgid "Homepage"
+msgstr "主页"
+
+#: src/API/OnboardingTasks.php:132
+msgid "Sorry, the sample products data file was not found."
+msgstr "抱歉，找不到示例产品数据文件。"
+
+#: src/API/OnboardingTasks.php:103
+msgid "Sorry, you are not allowed to create new pages."
+msgstr "抱歉，您不能创建新主页。"
+
+#: src/API/OnboardingTasks.php:89
+msgid "Sorry, you are not allowed to create resources."
+msgstr "抱歉，您不能创建资源。"
+
+#: src/Features/Onboarding.php:995 src/Features/Onboarding.php:1001
+msgid "WooCommerce Helper was not able to connect to WooCommerce.com."
+msgstr "WooCommerce Helper无法连接到WooCommerce.com。"
+
+#: src/Features/Onboarding.php:943
+msgid "Quickly access the WooCommerce.com connection flow in Calypso."
+msgstr "在Calypso中快速访问WooCommerce.com连接流。"
+
+#: src/Features/Onboarding.php:939
+msgid "Quickly access the Jetpack connection flow in Calypso."
+msgstr "在Calypso中快速访问Jetpack连接流程。"
+
+#: src/Features/Onboarding.php:937
+msgid "Calypso / WordPress.com"
+msgstr "Calypso/WordPress.com"
+
+#: src/Features/Onboarding.php:930
+msgid "If you need to enable or disable the task list, please click on the button below."
+msgstr "如果需要启用或禁用任务列表，请单击下面的按钮。"
+
+#: src/Features/Onboarding.php:929
+msgid "Task List"
+msgstr "任务列表"
+
+#: src/Features/Onboarding.php:849 src/Features/Onboarding.php:926
+#: src/Features/Onboarding.php:932
+msgid "Enable"
+msgstr "启用"
+
+#: src/Features/Onboarding.php:925 src/Features/Onboarding.php:933
+#: src/Features/Onboarding.php:949
+msgid "Disable"
+msgstr "禁用"
+
+#: src/Features/Onboarding.php:922
+msgid "Profile Setup Wizard"
+msgstr "配置文件设置向导"
+
+#: src/Features/Onboarding.php:920
+msgid "WooCommerce Onboarding"
+msgstr "WooCommerce入职"
+
+#: src/Notes/WC_Admin_Notes_WooCommerce_Payments.php:109
+msgid "Install now"
+msgstr "现在安装"
+
+#: src/API/OnboardingProfile.php:368
+msgid "Whether or not the store was connected to WooCommerce.com during the extension flow."
+msgstr "在扩展流期间，商店是否已连接到WooCommerce.com。"
+
+#: src/API/OnboardingProfile.php:361
+msgid "Whether or not this store was setup for a client."
+msgstr "是否为客户设置了此商店。"
+
+#: src/API/OnboardingProfile.php:290
+msgid "Current annual revenue of the store."
+msgstr "商店当前的年收入。"
+
+#: src/API/Plugins.php:479 src/API/Plugins.php:542
+msgid "There was an error loading the WooCommerce.com Helper API."
+msgstr "加载 WooCommerce.com Helper API 时出错。"
+
+#: src/API/Plugins.php:496 src/API/Plugins.php:501 src/API/Plugins.php:558
+#: src/API/Plugins.php:563 src/API/Plugins.php:579
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:1608
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:1608
+msgid "There was an error connecting to WooCommerce.com. Please try again."
+msgstr "连接到WooCommerce.com时出错。请再试一次。"
+
+#: src/PageController.php:206
+msgid "Current page retrieval should be called on or after the `current_screen` hook."
+msgstr "当前页面检索应在 `current_screen` 钩子上或之后调用。"
+
+#: src/Features/Onboarding.php:923
+msgid "If you need to enable or disable the setup wizard again, please click on the button below."
+msgstr "如果您需要再次启用或禁用设置向导，请单击下面的按钮。"
+
+#: src/API/Themes.php:195
+msgid "A zip file of the theme to be uploaded."
+msgstr "要上传的主题的zip文件。"
+
+#: src/API/Themes.php:176
+msgid "Uploaded theme."
+msgstr "已上传的主题"
+
+#: src/API/Themes.php:170
+msgid "Theme installation message."
+msgstr "主题安装消息。"
+
+#: src/API/Themes.php:164
+msgid "Theme installation status."
+msgstr "主题安装状态。"
+
+#: src/API/Themes.php:80
+msgid "Specified file failed upload test."
+msgstr "指定的文件上传测试失败。"
+
+#: src/API/Themes.php:65
+msgid "Sorry, you are not allowed to install themes on this site."
+msgstr "抱歉，您不能在此站点上安装主题。"
+
+#: src/API/Reports/Customers/Controller.php:263
+msgid "Region."
+msgstr "区域。"
+
+#: src/API/Reports/Products/Controller.php:214
+msgid "Product category IDs."
+msgstr "产品类别ID。"
+
+#: src/API/OnboardingProfile.php:330
+msgid "Extra business extensions to install."
+msgstr "要安装的其他业务扩展。"
+
+#: src/API/Reports/Export/Controller.php:210
+msgid "Sorry, there is no export with that ID."
+msgstr "抱歉，没有使用该ID的导出。"
+
+#: src/API/Reports/Export/Controller.php:175
+msgid "Your report file is being generated."
+msgstr "您的报告文件正在生成。"
+
+#: src/API/Reports/Export/Controller.php:167
+msgid "There is no data to export for the given request."
+msgstr "对于给定的请求，没有数据可导出。"
+
+#: src/API/Reports/Export/Controller.php:138
+msgid "Export download URL."
+msgstr "导出下载URL。"
+
+#: src/API/Reports/Export/Controller.php:132
+msgid "Percentage complete."
+msgstr "完成百分比。"
+
+#: src/API/Reports/Export/Controller.php:79
+msgid "Parameters to pass on to the exported report."
+msgstr "传递给导出报告的参数。"
+
+#: src/API/Reports/Orders/Controller.php:242
+msgid "Order customer information."
+msgstr "订单客户信息。"
+
+#: src/API/Reports/Orders/Controller.php:236
+msgid "List of order coupons."
+msgstr "订单优惠券列表。"
+
+#: src/API/Reports/Orders/Controller.php:230
+msgid "List of order product IDs, names, quantities."
+msgstr "订单产品ID，名称，数量的列表。"
+
+#: src/API/Reports/Customers/Controller.php:599
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:634
+#: dist/chunks/12.81a5de16019a0cc85173.js:634
+msgid "Region"
+msgstr "区域"
+
+#. translators: Amount of product per year (e.g. Bookings - $240.00 per year)
+#: src/Features/Onboarding.php:529
+msgid " — %s per year"
+msgstr " — 每年 %s "
+
+#: src/Features/Onboarding.php:351
+msgid "Bookings"
+msgstr "订票"
+
+#: src/Features/Onboarding.php:347
+msgid "Composite Products"
+msgstr "组合产品"
+
+#: src/Features/Onboarding.php:343
+msgid "Memberships"
+msgstr "会员资格"
+
+#: src/Features/Onboarding.php:339
+msgid "Subscriptions"
+msgstr "订阅内容"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:155
+msgid "Number of coupons."
+msgstr "优惠券数量。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:165
+msgid "Number of orders"
+msgstr "订单数"
+
+#: src/ReportsSync.php:81
+msgid "An import is already in progress.  Please allow the previous import to complete before beginning a new one."
+msgstr "导入已在进行中。请等上一次导入完成之后再开始新的导入。"
+
+#: src/Loader.php:1000 src/Loader.php:1001
+msgid "Default Date Range"
+msgstr "默认日期范围"
+
+#: src/API/NoteActions.php:38
+msgid "Unique ID for the Note Action."
+msgstr "备注操作的唯一 ID。"
+
+#: src/API/NoteActions.php:34
+msgid "Unique ID for the Note."
+msgstr "备注的唯一 ID。"
+
+#: src/API/Plugins.php:742
+msgid "Action that should be completed to connect Jetpack."
+msgstr "连接Jetpack应该完成的操作。"
+
+#: src/API/Plugins.php:722
+msgid "Plugin status."
+msgstr "插件状态。"
+
+#: src/API/Plugins.php:716
+msgid "Plugin name."
+msgstr "插件名称。"
+
+#: src/API/Plugins.php:710
+msgid "Plugin slug."
+msgstr "插件别名。"
+
+#: src/API/Plugins.php:455
+msgid "Jetpack is not installed or active."
+msgstr "Jetpack未安装或未激活。"
+
+#: src/API/MarketingOverview.php:93
+msgid "Invalid plugin."
+msgstr "无效的插件。"
+
+#: src/API/Plugins.php:182 src/API/MarketingOverview.php:120
+msgid "Sorry, you cannot manage plugins."
+msgstr "抱歉，您无法管理插件。"
+
+#: src/API/OnboardingProfile.php:354
+msgid "Whether or not the user opted to purchase items now or later."
+msgstr "用户是否选择现在还是以后购买商品。"
+
+#: src/API/OnboardingProfile.php:346
+msgid "Selected store theme."
+msgstr "选定的商店主题。"
+
+#: src/API/OnboardingProfile.php:305
+msgid "Name of other platform used to sell."
+msgstr "用于出售的其他平台的名称。"
+
+#: src/API/OnboardingProfile.php:276
+msgid "Other places the store is selling products."
+msgstr "商店在其他地方出售产品。"
+
+#: src/API/OnboardingProfile.php:262
+msgid "Number of products to be added."
+msgstr "要添加的产品数量。"
+
+#: src/API/OnboardingProfile.php:250
+msgid "Types of products sold."
+msgstr "出售产品的类型。"
+
+#: src/API/OnboardingProfile.php:240
+msgid "Industry."
+msgstr "行业。"
+
+#: src/API/OnboardingProfile.php:228
+msgid "Account type used for Jetpack."
+msgstr "Jetpack使用的帐户类型。"
+
+#: src/API/OnboardingProfile.php:207
+msgid "Whether or not the profile was completed."
+msgstr "配置文件是否已完成。"
+
+#: src/API/OnboardingProfile.php:136
+msgid "Onboarding profile data has been updated."
+msgstr "入职个人资料数据已更新。"
+
+#: src/API/Reports/Orders/Controller.php:190
+msgid "Date the order was created, as GMT."
+msgstr "订单创建的日期（格林尼治标准时间）。"
+
+#: src/API/Reports/Orders/Controller.php:184
+msgid "Date the order was created, in the site's timezone."
+msgstr "订单创建日期（站点所在地时区时间）。"
+
+#: src/Features/Onboarding.php:336
+msgid "Virtual products that customers download."
+msgstr "客户下载的虚拟产品。"
+
+#: src/Features/Onboarding.php:332
+msgid "Products you ship to customers."
+msgstr "您运送给客户的产品。"
+
+#: src/Features/Onboarding.php:331
+msgid "Physical products"
+msgstr "实物产品"
+
+#: src/Features/Onboarding.php:304
+msgid "Home, furniture, and garden"
+msgstr "家居、家具和园艺"
+
+#: src/Features/Onboarding.php:294
+msgid "Electronics and computers"
+msgstr "电子产品和计算机"
+
+#: src/Features/Onboarding.php:289
+msgid "Art, music, and photography"
+msgstr "艺术、音乐和摄影"
+
+#: src/Features/Onboarding.php:284
+msgid "Health and beauty"
+msgstr "卫生和美容"
+
+#: src/Features/Onboarding.php:279
+msgid "Fashion, apparel, and accessories"
+msgstr "时尚、服装和配饰"
+
+#: src/Features/Onboarding.php:314 dist/chunks/42.cee7c33db46f1ba078f3.js:2173
+#: dist/chunks/41.d7d58f66bf36ba0ae499.js:2173
+msgid "Other"
+msgstr "其他"
+
+#: src/API/Plugins.php:466 dist/data/index.js:1112
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: src/ReportsSync.php:181
+msgid "Report table data is being deleted."
+msgstr "正在删除报告表格数据。"
+
+#. translators: %1$s: updated title, %2$s: blog info name
+#: src/Loader.php:796
+msgid "%1$s &lsaquo; %2$s"
+msgstr "%1$s ＆lsaquo; %2$s"
+
+#: src/API/Leaderboards.php:493
+msgid "Displayed title for the leaderboard."
+msgstr "排行榜的显示标题。"
+
+#: src/API/Leaderboards.php:487
+msgid "Leaderboard ID."
+msgstr "排行榜 ID。"
+
+#: src/API/Reports/Customers/Controller.php:348
+msgid "Limit response to resources with orders published before a given ISO8601 compliant date."
+msgstr "将响应限制在给定ISO8601兼容日期之前发布的订单。"
+
+#: src/API/Reports/Customers/Controller.php:342
+msgid "Limit response to resources with orders published after a given ISO8601 compliant date."
+msgstr "在给定的ISO8601符合日期之后发布的订单来限制对资源的响应。"
+
+#: src/API/Reports/Import/Controller.php:246
+msgid "All pending and in-progress import actions have been cancelled."
+msgstr "所有待处理和进行中的导入操作均已取消。"
+
+#: src/API/Reports/Import/Controller.php:224
+#: src/API/Reports/Export/Controller.php:109
+msgid "Regenerate data message."
+msgstr "重新生成数据消息。"
+
+#: src/API/Reports/Import/Controller.php:218
+#: src/API/Reports/Export/Controller.php:103
+msgid "Regeneration status."
+msgstr "重新生成状态。"
+
+#: src/API/Reports/Import/Controller.php:197
+msgid "Skip importing existing order data."
+msgstr "跳过导入现有订单数据的操作。"
+
+#: src/API/Reports/Import/Controller.php:190
+msgid "Number of days to import."
+msgstr "导入天数。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:492
+#: src/API/Reports/Orders/Controller.php:398
+msgid "Limit result set to specific types of refunds."
+msgstr "将结果集限制为特定类型的退款。"
+
+#: src/Notes/WC_Admin_Notes_Order_Milestones.php:260
+msgid "Review your orders"
+msgstr "查看您的订单"
+
+#: src/Notes/WC_Admin_Notes_Mobile_App.php:41
+msgid "Install Woo mobile app"
+msgstr "安装Woo移动应用"
+
+#: src/Notes/WC_Admin_Notes_Mobile_App.php:38
+msgid "Install the WooCommerce mobile app to manage orders, receive sales notifications, and view key metrics — wherever you are."
+msgstr "无论您身在何处，都可以安装WooCommerce移动应用程序来管理订单，接收销售通知和查看关键指标。"
+
+#: src/API/Leaderboards.php:529
+msgid "Table cell value."
+msgstr "表单元格值。"
+
+#: src/API/Leaderboards.php:523
+msgid "Table cell display."
+msgstr "表格单元格显示。"
+
+#: src/API/Leaderboards.php:516
+msgid "Table rows."
+msgstr "表格行。"
+
+#: src/API/Leaderboards.php:506
+msgid "Table column header."
+msgstr "表列标题。"
+
+#: src/API/Leaderboards.php:499
+msgid "Table headers."
+msgstr "表标题。"
+
+#: src/API/Leaderboards.php:467
+msgid "URL query to persist across links."
+msgstr "URL查询可跨链接持久化。"
+
+#: src/API/Leaderboards.php:252
+msgid "Top Customers - Total Spend"
+msgstr "顶级客户-总支出"
+
+#: src/API/Leaderboards.php:122
+msgid "Top Coupons - Number of Orders"
+msgstr "热门优惠券 – 订单数量"
+
+#: src/API/ProductVariations.php:91
+msgid "Product type."
+msgstr "产品类别。"
+
+#: src/API/ProductVariations.php:86
+msgid "Product parent name."
+msgstr "产品父名称。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:235
+#: src/API/Reports/Customers/Controller.php:432
+msgid "Limit response to objects with specfic usernames."
+msgstr "将响应限制为具有特定用户名的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:225
+#: src/API/Reports/Customers/Controller.php:422
+msgid "Limit response to objects with specfic names."
+msgstr "将响应限制为具有特定名称的对象。"
+
+#. translators: %s is product name
+#: src/API/Reports/Products/DataStore.php:229
+msgid "%s (Deleted)"
+msgstr "%s（已删除）"
+
+#: src/API/Products.php:62
+msgid "Limit result set to products that are low or out of stock."
+msgstr "将结果集限制为低价或缺货的产品。"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:192
+#: src/API/Reports/Orders/Stats/Controller.php:198
+msgid "Unique coupons count."
+msgstr "独特的优惠券数量。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:260
+#: src/API/Reports/Customers/Controller.php:457
+msgid "Limit response to objects excluding specfic countries."
+msgstr "将响应限制为不包含特定国家/地区的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:250
+#: src/API/Reports/Customers/Controller.php:447
+msgid "Limit response to objects excluding emails."
+msgstr "将响应限制为不包括电子邮件的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:245
+#: src/API/Reports/Customers/Controller.php:442
+msgid "Limit response to objects including emails."
+msgstr "限制对包括电子邮件在内的对象的响应。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:230
+#: src/API/Reports/Customers/Controller.php:427
+msgid "Limit response to objects excluding specfic names."
+msgstr "将响应限制为不包含特定名称的对象。"
+
+#: src/Loader.php:992
+msgid "Statuses that require extra action on behalf of the store admin."
+msgstr "需要代表商店管理员执行额外操作的状态。"
+
+#: src/Loader.php:991
+msgid "Actionable order statuses"
+msgstr "可执行操作的订单状态"
+
+#: src/Loader.php:983
+msgid "Statuses that should not be included when calculating report totals."
+msgstr "计算报告总数时不应包括的状态。"
+
+#: src/Loader.php:982
+msgid "Excluded report order statuses"
+msgstr "排除的报告订单状态"
+
+#: src/Loader.php:963
+msgid "Settings for WooCommerce admin reporting."
+msgstr "WooCommerce admin 报告的设置。"
+
+#: src/API/Reports/Taxes/Stats/DataStore.php:225
+msgid "Sorry, fetching tax data failed."
+msgstr "抱歉，获取税收数据失败。"
+
+#. translators: %s is product name
+#: src/API/Reports/Products/DataStore.php:229
+msgid "(Deleted)"
+msgstr "（已删除）"
+
+#: src/API/Reports/Categories/DataStore.php:277
+#: src/API/Reports/Taxes/Stats/DataStore.php:191
+#: src/API/Reports/Products/Stats/DataStore.php:181
+#: src/API/Reports/Products/Stats/DataStore.php:197
+#: src/API/Reports/Orders/Stats/DataStore.php:298
+#: src/API/Reports/Orders/Stats/DataStore.php:351
+msgid "Sorry, fetching revenue data failed."
+msgstr "抱歉，获取收入数据失败。"
+
+#: src/API/Reports/Downloads/Stats/DataStore.php:120
+#: src/API/Reports/Downloads/Stats/DataStore.php:136
+msgid "Sorry, fetching downloads data failed."
+msgstr "抱歉，获取下载数据失败。"
+
+#: src/API/Reports/Coupons/Stats/Segmenter.php:285
+#: src/API/Reports/Products/Stats/Segmenter.php:171
+#: src/API/Reports/Orders/Stats/Segmenter.php:380
+msgid "product_includes parameter need to specify exactly one product when segmenting by variation."
+msgstr "按变体进行细分时，product_includes参数需要精确指定一种产品。"
+
+#. translators: %s: Method name
+#: src/API/Reports/Query.php:24
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr "方法' %s '未实现。必须在子类中重写。"
+
+#: src/API/Reports/Taxes/Controller.php:286
+msgid "Limit result set to items assigned one or more tax rates."
+msgstr "将结果集限制为分配了一个或多个税率的项目。"
+
+#: src/API/Reports/Taxes/Controller.php:190
+msgid "Priority."
+msgstr "优先级。"
+
+#: src/API/Reports/Taxes/Controller.php:184
+msgid "State."
+msgstr "州/省"
+
+#: src/API/Reports/Taxes/Controller.php:172
+msgid "Tax rate."
+msgstr "税率。"
+
+#: src/API/Reports/Taxes/Controller.php:166
+msgid "Tax rate name."
+msgstr "税率名称。"
+
+#: src/API/Reports/Taxes/Controller.php:160
+msgid "Tax rate ID."
+msgstr "税率编号。"
+
+#: src/API/Coupons.php:37
+msgid "Limit results to coupons with codes matching a given string."
+msgstr "将结果限制为具有与给定字符串匹配的代码的优惠券。"
+
+#: src/API/Reports/Products/Stats/Controller.php:198
+msgid "Human readable segment label, either product or variation name."
+msgstr "易读的细分标签，产品或变体名称。"
+
+#: src/API/Reports/Coupons/Controller.php:169
+#: src/API/Reports/Categories/Controller.php:188
+#: src/API/Reports/Taxes/Stats/Controller.php:194
+#: src/API/Reports/Taxes/Controller.php:214
+#: src/API/Reports/Revenue/Stats/Controller.php:224
+#: src/API/Reports/Products/Stats/Controller.php:175
+msgid "Number of orders."
+msgstr "订单数。"
+
+#: src/API/Reports/Taxes/Stats/Controller.php:375
+msgid "Limit result set to all items that have the specified term assigned in the taxes taxonomy."
+msgstr "将结果集限制为在税收分类法中分配了指定期限的所有项目。"
+
+#: src/API/Reports/Taxes/Stats/Controller.php:200
+msgid "Amount of tax codes."
+msgstr "税码数量。"
+
+#: src/API/Reports/Taxes/Stats/Controller.php:186
+#: src/API/Reports/Taxes/Controller.php:208
+msgid "Shipping tax."
+msgstr "运费税。"
+
+#: src/API/Reports/Taxes/Stats/Controller.php:178
+#: src/API/Reports/Taxes/Controller.php:202
+msgid "Order tax."
+msgstr "订单税。"
+
+#: src/API/Reports/Taxes/Stats/Controller.php:170
+#: src/API/Reports/Taxes/Controller.php:196
+msgid "Total tax."
+msgstr "总税额。"
+
+#. translators: Allowed values is a list of stat endpoints.
+#: src/API/Reports/PerformanceIndicators/Controller.php:665
+msgid "Limit response to specific report stats. Allowed values: %s."
+msgstr "将响应限制为特定的报告统计信息。允许的值： %s 。"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:655
+msgid "There was an issue loading the report endpoints"
+msgstr "加载报告端点时出现问题"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:624
+msgid "Value of the stat. Returns null if the stat does not exist or cannot be loaded."
+msgstr "统计值。如果该统计信息不存在或无法加载，则返回null。"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:617
+msgid "Format of the stat."
+msgstr "统计信息的格式。"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:611
+msgid "Human readable label for the stat."
+msgstr "人类可读的统计标签。"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:605
+msgid "The specific chart this stat referrers to."
+msgstr "该统计资料所引用的具体图表。"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:409
+msgid "A list of stats to query must be provided."
+msgstr "必须提供要查询的统计信息列表。"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:146
+msgid "Sorry, fetching performance indicators failed."
+msgstr "抱歉，获取性能指标失败。"
+
+#: src/API/DataDownloadIPs.php:160
+msgid "IP address."
+msgstr "IP地址。"
+
+#: src/API/DataDownloadIPs.php:139
+msgid "A partial IP address can be passed and matching results will be returned."
+msgstr "可以传递部分IP地址，并返回匹配结果。"
+
+#: src/API/DataDownloadIPs.php:75
+msgid "Invalid request. Please pass the match parameter."
+msgstr "无效请求。请传递匹配参数。"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:236
+msgid "Products sold."
+msgstr "产品出售。"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:230
+msgid "Items sold."
+msgstr "已售项目"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:216
+msgid "Total of returns."
+msgstr "退款总额。"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:208
+msgid "Total of taxes."
+msgstr "税金总计。"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:200
+msgid "Total of shipping."
+msgstr "运费合计。"
+
+#: src/API/Reports/Orders/Controller.php:387
+msgid "Limit result set to returning or new customers."
+msgstr "将结果集限制为回头客或新客户。"
+
+#: src/API/Reports/Orders/Controller.php:220
+msgid "Returning or new customer."
+msgstr "回头客或新客户。"
+
+#: src/API/Reports/Orders/Controller.php:214
+msgid "Net total revenue."
+msgstr "净总收入。"
+
+#: src/API/Reports/Orders/Controller.php:196
+msgid "Order status."
+msgstr "订单状态。"
+
+#: src/API/Notes.php:599
+msgid "An array of actions, if any, for the note."
+msgstr "备注的一组操作（如果有）。"
+
+#: src/API/Notes.php:587
+msgid "Date after which the user should be reminded of the note, if any (GMT)."
+msgstr "用户应该在此之后收到备注提醒（如果有）的日期 (GMT)。"
+
+#: src/API/Notes.php:581
+msgid "Date after which the user should be reminded of the note, if any."
+msgstr "用户应该在此之后收到备注提醒（如果有）的日期。"
+
+#: src/API/Notes.php:575
+msgid "Date the note was created (GMT)."
+msgstr "备注创建日期 (GMT)。"
+
+#: src/API/Notes.php:569
+msgid "Date the note was created."
+msgstr "备注创建日期。"
+
+#: src/API/Notes.php:563
+msgid "Source of the note."
+msgstr "注释来源。"
+
+#: src/API/Notes.php:558
+msgid "The status of the note (e.g. unactioned, actioned)."
+msgstr "备注的状态（如未操作、已操作）。"
+
+#: src/API/Notes.php:552
+msgid "Content data for the note. JSON string. Available for re-localization."
+msgstr "备注的内容数据。JSON 字符串。适宜再地方化"
+
+#: src/API/Notes.php:546
+msgid "Content of the note."
+msgstr "备注内容。"
+
+#: src/API/Notes.php:540
+msgid "Title of the note."
+msgstr "备注标题。"
+
+#: src/API/Notes.php:534
+msgid "Locale used for the note title and content."
+msgstr "用于注释标题和内容的语言环境。"
+
+#: src/API/Notes.php:528
+msgid "The type of the note (e.g. error, warning, etc.)."
+msgstr "注释的类型（例如错误，警告等）。"
+
+#: src/API/Notes.php:522
+msgid "Name of the note."
+msgstr "备注名称。"
+
+#: src/API/Notes.php:516
+msgid "ID of the note record."
+msgstr "备注记录 ID。"
+
+#: src/API/Notes.php:492
+msgid "Status of note."
+msgstr "备注状态。"
+
+#: src/API/Notes.php:482
+msgid "Type of note."
+msgstr "注释类型。"
+
+#: src/API/OnboardingProfile.php:90 src/API/Reports/Import/Controller.php:113
+#: src/API/Notes.php:359
+msgid "Sorry, you cannot edit this resource."
+msgstr "抱歉，您无法编辑此资源。"
+
+#: src/API/Notes.php:133 src/API/Notes.php:245 src/API/NoteActions.php:65
+#: src/API/NoteActions.php:84
+msgid "Sorry, there is no resource with that ID."
+msgstr "抱歉，没有具有该ID的资源。"
+
+#: src/API/Notes.php:63 src/API/Customers.php:53
+msgid "Unique ID for the resource."
+msgstr "资源的唯一ID。"
+
+#: src/API/Reports/Customers/Controller.php:311
+msgid "Avg order value."
+msgstr "平均订单价值。"
+
+#: src/API/Reports/Customers/Controller.php:305
+msgid "Total spend."
+msgstr "总支出。"
+
+#: src/API/Reports/Customers/Controller.php:299
+msgid "Order count."
+msgstr "订单数。"
+
+#: src/API/Reports/Customers/Controller.php:293
+msgid "Date last active GMT."
+msgstr "上次活动日期 (GMT)。"
+
+#: src/API/Reports/Customers/Controller.php:287
+msgid "Date last active."
+msgstr "最后激活日期。"
+
+#: src/API/Reports/Customers/Controller.php:281
+msgid "Date registered GMT."
+msgstr "注册日期（GMT）。"
+
+#: src/API/Reports/Customers/Controller.php:275
+msgid "Date registered."
+msgstr "注册日期。"
+
+#: src/API/Reports/Customers/Controller.php:269
+msgid "Postal code."
+msgstr "邮政编码。"
+
+#: src/API/Reports/Customers/Controller.php:257
+msgid "City."
+msgstr "市。"
+
+#: src/API/Reports/Customers/Controller.php:245
+msgid "Username."
+msgstr "用户名。"
+
+#: src/API/Reports/Customers/Controller.php:239
+msgid "Name."
+msgstr "名称。"
+
+#: src/API/Reports/Customers/Controller.php:233
+msgid "User ID."
+msgstr "用户 ID。"
+
+#: src/API/Reports/Customers/Controller.php:227
+#: src/API/Reports/Orders/Controller.php:202
+msgid "Customer ID."
+msgstr "顾客ID。"
+
+#: src/API/Reports/Categories/Controller.php:315
+msgid "Add additional piece of info about each category to the report."
+msgstr "向报告中添加关于每个类别的附加信息。"
+
+#: src/API/Reports/Categories/Controller.php:306
+msgid "Limit result set to all items that have the specified term assigned in the categories taxonomy."
+msgstr "将结果集限制为在分类法中指定了指定术语的所有项目。"
+
+#: src/API/Reports/Categories/Controller.php:204
+msgid "Category name."
+msgstr "分类名称。"
+
+#: src/API/Reports/Categories/Controller.php:194
+msgid "Amount of products."
+msgstr "产品数量。"
+
+#: src/API/Reports/Categories/Controller.php:176
+msgid "Amount of items sold."
+msgstr "已售项目的数量。"
+
+#: src/API/Reports/Categories/Controller.php:170
+msgid "Category ID."
+msgstr "类别ID。"
+
+#: src/API/Reports/Categories/Controller.php:78
+msgid "Invalid response from data store."
+msgstr "来自数据存储的无效响应。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:348
+msgid "Limit response to objects that don't have the specified customer ids."
+msgstr "将响应限制为没有指定客户ID的对象。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:339
+msgid "Limit response to objects that have the specified customer ids."
+msgstr "将响应限制为具有指定客户ID的对象。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:148
+msgid "Number of downloads."
+msgstr "下载次数。"
+
+#: src/API/ProductVariations.php:36 src/API/Products.php:68
+msgid "Search by similar product name or sku."
+msgstr "按相似的产品名称或sku搜索。"
+
+#. translators: Stock status. Example: "Number of low stock products
+#: src/API/Reports/Stock/Stats/Controller.php:105
+msgid "Number of %s products."
+msgstr "%s产品的数量。"
+
+#: src/API/Reports/Stock/Stats/Controller.php:94
+msgid "Number of low stock products."
+msgstr "低库存产品的数量。"
+
+#: src/API/Reports/Stock/Stats/Controller.php:88
+msgid "Number of products."
+msgstr "产品数量。"
+
+#: src/API/Orders.php:37
+msgid "Limit result set to orders matching part of an order number."
+msgstr "将结果集限制为与订单号部分匹配的订单。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:162
+msgid "Number of discounted orders."
+msgstr "打折订单数。"
+
+#: src/API/Reports/Products/Stats/Controller.php:382
+#: src/API/Reports/Products/Controller.php:313
+msgid "Limit result to items from the specified categories."
+msgstr "将结果限制为指定类别中的项目。"
+
+#: src/API/Reports/Products/Controller.php:244
+msgid "Product SKU."
+msgstr "产品SKU。"
+
+#: src/API/Reports/Products/Controller.php:238
+msgid "Product variations IDs."
+msgstr "产品变体ID。"
+
+#: src/API/Reports/Controller.php:269
+msgid "API path."
+msgstr "API路径。"
+
+#: src/API/Reports/Controller.php:263
+msgid "A human-readable description of the resource."
+msgstr "人类可读的资源描述。"
+
+#: src/API/Reports/Controller.php:257
+msgid "An alphanumeric identifier for the resource."
+msgstr "资源的字母数字标识符。"
+
+#: src/API/Reports/Controller.php:137
+msgid "Customers detailed reports."
+msgstr "客户详细报告。"
+
+#: src/API/Reports/Controller.php:133
+msgid "Stats about product downloads."
+msgstr "有关产品下载的统计信息。"
+
+#: src/API/Reports/Controller.php:129
+msgid "Product download files detailed reports."
+msgstr "产品下载文件详细报告。"
+
+#: src/API/Reports/Controller.php:125
+msgid "Product downloads detailed reports."
+msgstr "产品下载详细报告。"
+
+#: src/API/Reports/Controller.php:121
+msgid "Stats about taxes."
+msgstr "有关税收的统计信息。"
+
+#: src/API/Reports/Controller.php:117
+msgid "Taxes detailed reports."
+msgstr "征税详细报告。"
+
+#: src/API/Reports/Controller.php:113
+msgid "Stats about coupons."
+msgstr "有关优惠券的统计信息。"
+
+#: src/API/Reports/Controller.php:109
+msgid "Coupons detailed reports."
+msgstr "优惠券详细报告。"
+
+#: src/API/Reports/Controller.php:105
+msgid "Stats about product categories."
+msgstr "有关产品类别的统计信息。"
+
+#: src/API/Reports/Controller.php:101
+msgid "Product categories detailed reports."
+msgstr "产品类别详细报告。"
+
+#: src/API/Reports/Controller.php:97
+msgid "Stats about products."
+msgstr "有关产品的统计信息。"
+
+#: src/API/Reports/Controller.php:93
+msgid "Products detailed reports."
+msgstr "产品详细报告。"
+
+#: src/API/Reports/Controller.php:89
+msgid "Stats about orders."
+msgstr "有关订单的统计信息。"
+
+#: src/API/Reports/Controller.php:85
+msgid "Stats about revenue."
+msgstr "有关收入的统计信息。"
+
+#: src/API/Reports/Controller.php:81
+msgid "Batch endpoint for getting specific performance indicators from `stats` endpoints."
+msgstr "批处理端点，用于从 `stats` 端点获取特定的性能指标。"
+
+#: src/API/OnboardingProfile.php:76 src/API/Reports/Controller.php:63
+#: src/API/Notes.php:213 src/API/Notes.php:227
+msgid "Sorry, you cannot list resources."
+msgstr "抱歉，您无法列出资源。"
+
+#: src/API/Data.php:41
+msgid "An endpoint used for searching download logs for a specific IP address."
+msgstr "用于搜索特定 IP 地址的下载日志的端点。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:346
+#: src/API/Reports/Taxes/Stats/Controller.php:384
+#: src/API/Reports/Revenue/Stats/Controller.php:429
+#: src/API/Reports/Products/Stats/Controller.php:409
+#: src/API/Reports/Orders/Stats/Controller.php:505
+msgid "Segment the response by additional constraint."
+msgstr "通过附加约束细分响应。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:454
+#: src/API/Reports/Orders/Stats/Controller.php:483
+#: src/API/Reports/Orders/Controller.php:337
+msgid "Limit result set to items that don't have the specified coupon(s) assigned."
+msgstr "将结果集限制为未分配指定优惠券的项目。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:445
+#: src/API/Reports/Orders/Controller.php:327
+msgid "Limit result set to items that have the specified coupon(s) assigned."
+msgstr "将结果集限制为分配了指定优惠券的项目。"
+
+#: src/API/Reports/Categories/Controller.php:296
+#: src/API/Reports/Orders/Stats/Controller.php:416
+#: src/API/Reports/Orders/Controller.php:377
+msgid "Limit result set to items that don't have the specified order status."
+msgstr "将结果集限制为没有指定订单状态的项目。"
+
+#: src/API/Reports/Categories/Controller.php:286
+#: src/API/Reports/Orders/Stats/Controller.php:405
+#: src/API/Reports/Orders/Controller.php:367
+msgid "Limit result set to items that have the specified order status."
+msgstr "将结果集限制为具有指定订单状态的项目。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:323
+#: src/API/Reports/Categories/Controller.php:272
+#: src/API/Reports/Downloads/Stats/Controller.php:278
+#: src/API/Reports/Taxes/Stats/Controller.php:361
+#: src/API/Reports/Revenue/Stats/Controller.php:415
+#: src/API/Reports/Products/Stats/Controller.php:368
+#: src/API/Reports/Orders/Stats/Controller.php:381
+msgid "Time interval to use for buckets in the returned data."
+msgstr "在返回的数据中用于存储区的时间间隔。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:245
+#: src/API/Reports/Downloads/Stats/Controller.php:202
+#: src/API/Reports/Taxes/Stats/Controller.php:282
+#: src/API/Reports/Revenue/Stats/Controller.php:331
+#: src/API/Reports/Products/Stats/Controller.php:264
+#: src/API/Reports/Orders/Stats/Controller.php:303
+msgid "The date the report end, as GMT."
+msgstr "报告的结束日期（格林尼治标准时间）。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:239
+#: src/API/Reports/Downloads/Stats/Controller.php:196
+#: src/API/Reports/Taxes/Stats/Controller.php:276
+#: src/API/Reports/Revenue/Stats/Controller.php:325
+#: src/API/Reports/Products/Stats/Controller.php:258
+#: src/API/Reports/Orders/Stats/Controller.php:297
+msgid "The date the report end, in the site's timezone."
+msgstr "报告的结束日期，以网站的时区为准。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:233
+#: src/API/Reports/Downloads/Stats/Controller.php:190
+#: src/API/Reports/Taxes/Stats/Controller.php:270
+#: src/API/Reports/Revenue/Stats/Controller.php:319
+#: src/API/Reports/Products/Stats/Controller.php:252
+#: src/API/Reports/Orders/Stats/Controller.php:291
+msgid "The date the report start, as GMT."
+msgstr "报表开始的日期（格林尼治标准时间）。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:227
+#: src/API/Reports/Downloads/Stats/Controller.php:184
+#: src/API/Reports/Taxes/Stats/Controller.php:264
+#: src/API/Reports/Revenue/Stats/Controller.php:313
+#: src/API/Reports/Products/Stats/Controller.php:246
+#: src/API/Reports/Orders/Stats/Controller.php:285
+msgid "The date the report start, in the site's timezone."
+msgstr "报告的开始日期，以网站的时区为准。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:220
+#: src/API/Reports/Downloads/Stats/Controller.php:177
+#: src/API/Reports/Taxes/Stats/Controller.php:257
+#: src/API/Reports/Revenue/Stats/Controller.php:306
+#: src/API/Reports/Products/Stats/Controller.php:239
+#: src/API/Reports/Orders/Stats/Controller.php:278
+msgid "Type of interval."
+msgstr "间隔类型。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:212
+#: src/API/Reports/Downloads/Stats/Controller.php:169
+#: src/API/Reports/Taxes/Stats/Controller.php:249
+#: src/API/Reports/Revenue/Stats/Controller.php:298
+#: src/API/Reports/Products/Stats/Controller.php:231
+#: src/API/Reports/Orders/Stats/Controller.php:270
+msgid "Reports data grouped by intervals."
+msgstr "按时间间隔分组的报告数据。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:186
+#: src/API/Reports/Coupons/Stats/Controller.php:251
+#: src/API/Reports/Downloads/Stats/Controller.php:208
+#: src/API/Reports/Taxes/Stats/Controller.php:223
+#: src/API/Reports/Taxes/Stats/Controller.php:288
+#: src/API/Reports/Revenue/Stats/Controller.php:267
+#: src/API/Reports/Revenue/Stats/Controller.php:337
+#: src/API/Reports/Products/Stats/Controller.php:205
+#: src/API/Reports/Products/Stats/Controller.php:270
+#: src/API/Reports/Orders/Stats/Controller.php:239
+#: src/API/Reports/Orders/Stats/Controller.php:309
+msgid "Interval subtotals."
+msgstr "间隔小计。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:172
+#: src/API/Reports/Taxes/Stats/Controller.php:209
+#: src/API/Reports/Revenue/Stats/Controller.php:253
+#: src/API/Reports/Products/Stats/Controller.php:184
+#: src/API/Reports/Orders/Stats/Controller.php:225
+msgid "Reports data grouped by segment condition."
+msgstr "按细分条件分组的报告数据。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:216
+msgid "Number of distinct products sold."
+msgstr "销售的不同产品的数量。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:210
+msgid "Number of orders done by new customers"
+msgstr "新客户完成的订单数"
+
+#: src/API/Reports/Orders/Stats/Controller.php:204
+msgid "Number of orders done by returning customers"
+msgstr "回头客完成的订单数"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:186
+#: src/API/Reports/Orders/Stats/Controller.php:192
+msgid "Amount discounted by coupons."
+msgstr "优惠券折扣的金额。"
+
+#: src/API/Reports/Orders/Stats/Controller.php:186
+msgid "Number of items sold"
+msgstr "已售项目数量"
+
+#: src/API/Reports/Orders/Stats/Controller.php:180
+msgid "Average items per order"
+msgstr "每个订单的平均项目数"
+
+#: src/API/Reports/Orders/Stats/Controller.php:172
+msgid "Average order value."
+msgstr "平均订单价值。"
+
+#: src/API/Reports/Coupons/Controller.php:285
+#: src/API/Reports/Orders/Controller.php:411
+msgid "Add additional piece of info about each coupon to the report."
+msgstr "向报告中添加关于每个优惠券的附加信息。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:337
+#: src/API/Reports/Coupons/Controller.php:276
+msgid "Limit result set to coupons assigned specific coupon IDs."
+msgstr "将结果集限制为分配了特定优惠券ID的优惠券。"
+
+#: src/API/Reports/Coupons/Controller.php:210
+msgid "Coupon discount type."
+msgstr "优惠券折扣类型。"
+
+#: src/API/Reports/Coupons/Controller.php:203
+msgid "Coupon expiration date in GMT."
+msgstr "优惠券到期日期（格林尼治标准时间）。"
+
+#: src/API/Reports/Coupons/Controller.php:197
+msgid "Coupon expiration date."
+msgstr "优惠券到期日期。"
+
+#: src/API/Reports/Coupons/Controller.php:191
+msgid "Coupon creation date in GMT."
+msgstr "优惠券创建日期（格林尼治标准时间）。"
+
+#: src/API/Reports/Coupons/Controller.php:185
+msgid "Coupon creation date."
+msgstr "优惠券创建日期。"
+
+#: src/API/Reports/Coupons/Controller.php:179
+msgid "Coupon code."
+msgstr "优惠券代码。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:147
+#: src/API/Reports/Coupons/Controller.php:163
+msgid "Net discount amount."
+msgstr "净折扣金额。"
+
+#: src/API/Reports/Coupons/Controller.php:157
+msgid "Coupon ID."
+msgstr "优惠券ID。"
+
+#: src/API/Taxes.php:42
+msgid "Limit result set to items that have the specified rate ID(s) assigned."
+msgstr "将结果集限制为分配了指定比率ID的项目。"
+
+#: src/API/Taxes.php:37
+msgid "Search by similar tax code."
+msgstr "按类似的税码搜索。"
+
+#: src/API/Reports/Variations/Controller.php:328
+#: src/API/Reports/Products/Controller.php:342
+msgid "Add additional piece of info about each product to the report."
+msgstr "向报告中添加关于每款产品的附加信息。"
+
+#: src/API/Reports/Variations/Controller.php:319
+#: src/API/Reports/Products/Stats/Controller.php:400
+msgid "Limit result to items with specified variation ids."
+msgstr "将结果限制为包含特定变体 ID 的项目。"
+
+#: src/API/Reports/Variations/Controller.php:310
+#: src/API/Reports/Products/Stats/Controller.php:391
+#: src/API/Reports/Products/Controller.php:332
+msgid "Limit result to items with specified product ids."
+msgstr "将结果限制为具有指定产品ID的商品。"
+
+#: src/API/Reports/Variations/Controller.php:243
+#: src/API/Reports/Products/Controller.php:232
+msgid "Product inventory threshold for low stock."
+msgstr "低库存的产品库存阈值。"
+
+#: src/API/Reports/Variations/Controller.php:237
+#: src/API/Reports/Products/Controller.php:226
+msgid "Product inventory quantity."
+msgstr "产品库存数量。"
+
+#: src/API/Reports/Variations/Controller.php:231
+#: src/API/Reports/Products/Controller.php:220
+msgid "Product inventory status."
+msgstr "产品库存状态。"
+
+#: src/API/Reports/Variations/Controller.php:225
+msgid "Product attributes."
+msgstr "产品属性。"
+
+#: src/API/Reports/Variations/Controller.php:219
+#: src/API/Reports/Products/Controller.php:208
+msgid "Product link."
+msgstr "产品链接。"
+
+#: src/API/Reports/Variations/Controller.php:213
+#: src/API/Reports/Products/Controller.php:202
+msgid "Product image."
+msgstr "产品图片。"
+
+#: src/API/Reports/Variations/Controller.php:207
+#: src/API/Reports/Products/Controller.php:196
+msgid "Product price."
+msgstr "产品价格。"
+
+#: src/API/Reports/Variations/Controller.php:194
+#: src/API/Reports/Products/Controller.php:183
+msgid "Number of orders product appeared in."
+msgstr "产品出现的订单数。"
+
+#: src/API/Reports/Variations/Controller.php:188
+#: src/API/Reports/Products/Controller.php:177
+msgid "Total Net Sales of all items sold."
+msgstr "所有已售商品的总净收入。"
+
+#: src/API/Reports/Variations/Controller.php:182
+#: src/API/Reports/Products/Stats/Controller.php:161
+#: src/API/Reports/Products/Controller.php:171
+#: src/API/Reports/Orders/Controller.php:208
+msgid "Number of items sold."
+msgstr "已售项目的数量。"
+
+#: src/API/Reports/Stock/Controller.php:511
+msgid "Limit result set to items assigned a stock report type."
+msgstr "将结果集限制为分配了库存报告类型的项目。"
+
+#: src/API/Reports/Stock/Controller.php:502
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "将结果集限制为除特定父ID之外的所有项目。"
+
+#: src/API/Reports/Stock/Controller.php:493
+msgid "Limit result set to those of particular parent IDs."
+msgstr "将结果集限制为特定父ID的结果集。"
+
+#: src/API/Reports/Stock/Controller.php:465
+msgid "Offset the result set by a specific number of items."
+msgstr "将结果集偏移一定数量的项目。"
+
+#: src/API/Reports/Stock/Controller.php:456
+msgid "Limit result set to specific ids."
+msgstr "将结果集限制为特定的ID。"
+
+#: src/API/Reports/Stock/Controller.php:447
+msgid "Ensure result set excludes specific IDs."
+msgstr "确保结果集排除指定ID。"
+
+#: src/API/Reports/Stock/Controller.php:410
+msgid "Manage stock."
+msgstr "管理库存。"
+
+#: src/API/Reports/Stock/Controller.php:404
+msgid "Stock quantity."
+msgstr "库存数量。"
+
+#: src/API/Reports/Stock/Controller.php:397
+msgid "Stock status."
+msgstr "库存状态。"
+
+#: src/API/Reports/Stock/Controller.php:391
+msgid "Unique identifier."
+msgstr "唯一标识符。"
+
+#: src/API/Reports/Stock/Controller.php:385
+#: src/API/Reports/Variations/Controller.php:201
+#: src/API/Reports/Products/Controller.php:190
+msgid "Product name."
+msgstr "产品名称。"
+
+#: src/API/Reports/Stock/Controller.php:379 src/API/ProductVariations.php:98
+msgid "Product parent ID."
+msgstr "产品父代ID。"
+
+#: src/API/Reports/PerformanceIndicators/Controller.php:598
+#: src/API/Reports/Stock/Controller.php:373
+msgid "Unique identifier for the resource."
+msgstr "资源的唯一标识符。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:366
+#: src/API/Reports/Downloads/Controller.php:374
+msgid "Limit response to objects that don't have a specified ip address."
+msgstr "将响应限制为没有指定IP地址的对象。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:357
+#: src/API/Reports/Downloads/Controller.php:365
+msgid "Limit response to objects that have a specified ip address."
+msgstr "将响应限制为具有指定IP地址的对象。"
+
+#: src/API/Reports/Downloads/Controller.php:356
+msgid "Limit response to objects that don't have the specified user ids."
+msgstr "将响应限制为没有指定用户ID的对象。"
+
+#: src/API/Reports/Downloads/Controller.php:347
+msgid "Limit response to objects that have the specified user ids."
+msgstr "将响应限制为具有指定用户ID的对象。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:330
+#: src/API/Reports/Downloads/Controller.php:338
+#: src/API/Reports/Orders/Controller.php:427
+msgid "Limit result set to items that don't have the specified order ids."
+msgstr "将结果集限制为没有指定订单ID的商品。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:321
+#: src/API/Reports/Downloads/Controller.php:329
+#: src/API/Reports/Orders/Controller.php:418
+msgid "Limit result set to items that have the specified order ids."
+msgstr "将结果集限制为具有指定订单ID的商品。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:312
+#: src/API/Reports/Downloads/Controller.php:319
+#: src/API/Reports/Orders/Stats/Controller.php:436
+#: src/API/Reports/Orders/Controller.php:317
+msgid "Limit result set to items that don't have the specified product(s) assigned."
+msgstr "将结果集限制为未分配指定产品的项目。"
+
+#: src/API/Reports/Downloads/Stats/Controller.php:302
+#: src/API/Reports/Downloads/Controller.php:309
+#: src/API/Reports/Orders/Stats/Controller.php:426
+#: src/API/Reports/Orders/Controller.php:307
+msgid "Limit result set to items that have the specified product(s) assigned."
+msgstr "将结果集限制为分配了指定产品的项目。"
+
+#: src/API/Reports/Downloads/Controller.php:299
+msgid "Indicates whether all the conditions should be true for the resulting set, or if any one of them is sufficient. Match affects the following parameters: products, orders, username, ip_address."
+msgstr "指示结果集的所有条件是否都应为真，或者其中任何一个条件都满足。匹配会影响以下参数：产品，订单，用户名，ip_address。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:311
+#: src/API/Reports/Coupons/Controller.php:264
+#: src/API/Reports/Categories/Controller.php:258
+#: src/API/Reports/Stock/Controller.php:478
+#: src/API/Reports/Variations/Controller.php:297
+#: src/API/Reports/Customers/Controller.php:378
+#: src/API/Reports/Downloads/Stats/Controller.php:268
+#: src/API/Reports/Downloads/Controller.php:289
+#: src/API/Reports/Taxes/Stats/Controller.php:348
+#: src/API/Reports/Taxes/Controller.php:270
+#: src/API/Reports/Revenue/Stats/Controller.php:397
+#: src/API/Reports/Products/Stats/Controller.php:351
+#: src/API/Reports/Products/Controller.php:298
+#: src/API/Reports/Orders/Stats/Controller.php:369
+#: src/API/Reports/Orders/Controller.php:296 src/API/Notes.php:452
+msgid "Sort collection by object attribute."
+msgstr "按对象属性对集合进行排序。"
+
+#: src/API/Reports/Downloads/Controller.php:236
+msgid "IP address for the downloader."
+msgstr "下载者的IP地址。"
+
+#: src/API/Reports/Downloads/Controller.php:230
+msgid "User name of the downloader."
+msgstr "下载者的用户名。"
+
+#: src/API/Reports/Downloads/Controller.php:224
+msgid "User ID for the downloader."
+msgstr "下载者的用户ID。"
+
+#: src/API/Reports/Downloads/Controller.php:218
+#: src/API/Reports/Orders/Controller.php:178
+msgid "Order Number."
+msgstr "订单号。"
+
+#: src/API/Reports/Downloads/Controller.php:212
+#: src/API/Reports/Orders/Controller.php:172
+msgid "Order ID."
+msgstr "订单ID。"
+
+#: src/API/Reports/Downloads/Controller.php:200
+msgid "File URL."
+msgstr "文件URL。"
+
+#: src/API/Reports/Downloads/Controller.php:194
+msgid "File name."
+msgstr "文件名。"
+
+#: src/API/Reports/Downloads/Controller.php:188
+msgid "Download ID."
+msgstr "下载ID。"
+
+#: src/API/Reports/Downloads/Controller.php:179
+msgid "The date of the download, as GMT."
+msgstr "下载日期（格林尼治标准时间）。"
+
+#: src/API/Reports/Downloads/Controller.php:173
+msgid "The date of the download, in the site's timezone."
+msgstr "下载日期，以网站的时区为准。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:304
+#: src/API/Reports/Coupons/Controller.php:257
+#: src/API/Reports/Categories/Controller.php:251
+#: src/API/Reports/Stock/Controller.php:471
+#: src/API/Reports/Variations/Controller.php:290
+#: src/API/Reports/Customers/Controller.php:371
+#: src/API/Reports/Downloads/Stats/Controller.php:261
+#: src/API/Reports/Downloads/Controller.php:282
+#: src/API/Reports/Taxes/Stats/Controller.php:341
+#: src/API/Reports/Taxes/Controller.php:263
+#: src/API/Reports/Revenue/Stats/Controller.php:390
+#: src/API/Reports/Products/Stats/Controller.php:344
+#: src/API/Reports/Products/Controller.php:291
+#: src/API/Reports/Orders/Stats/Controller.php:362
+#: src/API/Reports/Orders/Controller.php:289 src/API/Notes.php:445
+msgid "Order sort attribute ascending or descending."
+msgstr "订单排序属性是升序还是降序。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:298
+#: src/API/Reports/Coupons/Controller.php:251
+#: src/API/Reports/Categories/Controller.php:245
+#: src/API/Reports/PerformanceIndicators/Controller.php:683
+#: src/API/Reports/Variations/Controller.php:284
+#: src/API/Reports/Downloads/Stats/Controller.php:255
+#: src/API/Reports/Downloads/Controller.php:276
+#: src/API/Reports/Taxes/Stats/Controller.php:335
+#: src/API/Reports/Taxes/Controller.php:257
+#: src/API/Reports/Revenue/Stats/Controller.php:384
+#: src/API/Reports/Products/Stats/Controller.php:338
+#: src/API/Reports/Products/Controller.php:285
+#: src/API/Reports/Orders/Stats/Controller.php:356
+#: src/API/Reports/Orders/Controller.php:283 src/API/Leaderboards.php:461
+msgid "Limit response to resources published before a given ISO8601 compliant date."
+msgstr "将响应限制在给定的ISO8601符合日期之前发布的资源。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:292
+#: src/API/Reports/Coupons/Controller.php:245
+#: src/API/Reports/Categories/Controller.php:239
+#: src/API/Reports/PerformanceIndicators/Controller.php:677
+#: src/API/Reports/Variations/Controller.php:278
+#: src/API/Reports/Downloads/Stats/Controller.php:249
+#: src/API/Reports/Downloads/Controller.php:270
+#: src/API/Reports/Taxes/Stats/Controller.php:329
+#: src/API/Reports/Taxes/Controller.php:251
+#: src/API/Reports/Revenue/Stats/Controller.php:378
+#: src/API/Reports/Products/Stats/Controller.php:332
+#: src/API/Reports/Products/Controller.php:279
+#: src/API/Reports/Orders/Stats/Controller.php:350
+#: src/API/Reports/Orders/Controller.php:277 src/API/Leaderboards.php:455
+msgid "Limit response to resources published after a given ISO8601 compliant date."
+msgstr "将响应限制为在给定的ISO8601符合日期之后发布的资源。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:283
+#: src/API/Reports/Coupons/Controller.php:236
+#: src/API/Reports/Categories/Controller.php:230
+#: src/API/Reports/Stock/Controller.php:438
+#: src/API/Reports/Variations/Controller.php:269
+#: src/API/Reports/Customers/Controller.php:362
+#: src/API/Reports/Downloads/Stats/Controller.php:240
+#: src/API/Reports/Downloads/Controller.php:261
+#: src/API/Reports/Taxes/Stats/Controller.php:320
+#: src/API/Reports/Taxes/Controller.php:242
+#: src/API/Reports/Revenue/Stats/Controller.php:369
+#: src/API/Reports/Products/Stats/Controller.php:323
+#: src/API/Reports/Products/Controller.php:270
+#: src/API/Reports/Orders/Stats/Controller.php:341
+#: src/API/Reports/Orders/Controller.php:268 src/API/Notes.php:473
+#: src/API/Leaderboards.php:446
+msgid "Maximum number of items to be returned in result set."
+msgstr "结果集中要返回的最大项目数。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:275
+#: src/API/Reports/Coupons/Controller.php:228
+#: src/API/Reports/Categories/Controller.php:222
+#: src/API/Reports/Stock/Controller.php:430
+#: src/API/Reports/Variations/Controller.php:261
+#: src/API/Reports/Customers/Controller.php:354
+#: src/API/Reports/Downloads/Stats/Controller.php:232
+#: src/API/Reports/Downloads/Controller.php:253
+#: src/API/Reports/Taxes/Stats/Controller.php:312
+#: src/API/Reports/Taxes/Controller.php:234
+#: src/API/Reports/Revenue/Stats/Controller.php:361
+#: src/API/Reports/Products/Stats/Controller.php:315
+#: src/API/Reports/Products/Controller.php:262
+#: src/API/Reports/Orders/Stats/Controller.php:333
+#: src/API/Reports/Orders/Controller.php:260 src/API/Notes.php:465
+#: src/API/Leaderboards.php:438
+msgid "Current page of the collection."
+msgstr "集合的当前页面。"
+
+#: src/API/Reports/Variations/Controller.php:170
+#: src/API/Reports/Variations/Controller.php:176
+#: src/API/Reports/Downloads/Controller.php:170
+#: src/API/Reports/Downloads/Controller.php:206
+#: src/API/Reports/Products/Controller.php:165
+msgid "Product ID."
+msgstr "产品编号。"
+
+#: src/API/Reports/Downloads/Controller.php:164
+msgid "ID."
+msgstr "ID。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:373
+#: src/API/Reports/Customers/Controller.php:570
+msgid "Limit result to items with specified customer ids."
+msgstr "将结果限制为具有指定客户ID的商品。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:367
+#: src/API/Reports/Customers/Controller.php:564
+msgid "Limit response to objects with last order after (or at) a given ISO8601 compliant datetime."
+msgstr "将响应限制为在给定的符合ISO8601的日期时间之后（或之后）的最后顺序的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:361
+#: src/API/Reports/Customers/Controller.php:558
+msgid "Limit response to objects with last order before (or at) a given ISO8601 compliant datetime."
+msgstr "将响应限制为在给定的符合ISO8601的日期时间之前（或之前）的最后顺序的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:353
+#: src/API/Reports/Customers/Controller.php:550
+msgid "Limit response to objects with an average order spend between two given numbers."
+msgstr "将响应限制为平均订单花费在两个给定数字之间的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:348
+#: src/API/Reports/Customers/Controller.php:545
+msgid "Limit response to objects with an average order spend less than or equal to given number."
+msgstr "限制对平均订单花费小于或等于给定数量的对象的响应。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:343
+#: src/API/Reports/Customers/Controller.php:540
+msgid "Limit response to objects with an average order spend greater than or equal to given number."
+msgstr "限制对平均订单支出大于或等于给定数量的对象的响应。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:335
+#: src/API/Reports/Customers/Controller.php:532
+msgid "Limit response to objects with a total order spend between two given numbers."
+msgstr "将响应限制为对象的总订单花费在两个给定数字之间。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:330
+#: src/API/Reports/Customers/Controller.php:527
+msgid "Limit response to objects with a total order spend less than or equal to given number."
+msgstr "限制对总订单支出少于或等于给定数量的对象的响应。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:325
+#: src/API/Reports/Customers/Controller.php:522
+msgid "Limit response to objects with a total order spend greater than or equal to given number."
+msgstr "限制对总订单支出大于或等于给定数量的对象的响应。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:317
+#: src/API/Reports/Customers/Controller.php:514
+msgid "Limit response to objects with an order count between two given integers."
+msgstr "将响应限制为对象的阶数在两个给定整数之间。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:311
+#: src/API/Reports/Customers/Controller.php:508
+msgid "Limit response to objects with an order count less than or equal to given integer."
+msgstr "将响应限制为阶数小于或等于给定整数的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:305
+#: src/API/Reports/Customers/Controller.php:502
+msgid "Limit response to objects with an order count greater than or equal to given integer."
+msgstr "将响应限制为阶数大于或等于给定整数的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:277
+#: src/API/Reports/Customers/Stats/Controller.php:297
+#: src/API/Reports/Customers/Controller.php:474
+#: src/API/Reports/Customers/Controller.php:494
+msgid "Limit response to objects last active between two given ISO8601 compliant datetime."
+msgstr "将响应限制为在两个给定的符合ISO8601的日期时间之间最后激活的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:271
+#: src/API/Reports/Customers/Controller.php:468
+msgid "Limit response to objects last active after (or at) a given ISO8601 compliant datetime."
+msgstr "将响应限制为在给定的符合ISO8601的日期时间之后（或之后）上次激活的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:265
+#: src/API/Reports/Customers/Controller.php:462
+msgid "Limit response to objects last active before (or at) a given ISO8601 compliant datetime."
+msgstr "将响应限制为在给定的符合ISO8601的日期时间之前（或之前）上次活动的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:255
+#: src/API/Reports/Customers/Controller.php:452
+msgid "Limit response to objects with specfic countries."
+msgstr "将响应限制在特定国家/地区。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:240
+#: src/API/Reports/Customers/Controller.php:437
+msgid "Limit response to objects excluding specfic usernames."
+msgstr "将响应限制为不包含特定用户名的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:210
+#: src/API/Reports/Customers/Controller.php:407
+msgid "Limit response to objects with a customer field containing the search term. Searches the field provided by `searchby`."
+msgstr "将响应限制为带有包含搜索词的客户字段的对象。搜索`searchby`提供的字段。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:200
+#: src/API/Reports/Customers/Controller.php:397
+#: src/API/Reports/Downloads/Stats/Controller.php:292
+#: src/API/Reports/Products/Controller.php:322
+#: src/API/Reports/Orders/Stats/Controller.php:395
+msgid "Indicates whether all the conditions should be true for the resulting set, or if any one of them is sufficient. Match affects the following parameters: status_is, status_is_not, product_includes, product_excludes, coupon_includes, coupon_excludes, customer, categories"
+msgstr "指示结果集的所有条件是否都应为真，或者其中任何一个条件都满足。匹配会影响以下参数：status_is，status_is_not，product_includes，product_excludes，coupon_includes，coupon_excludes，客户，类别"
+
+#: src/API/Reports/Customers/Stats/Controller.php:194
+#: src/API/Reports/Customers/Stats/Controller.php:291
+#: src/API/Reports/Customers/Controller.php:336
+#: src/API/Reports/Customers/Controller.php:488
+msgid "Limit response to objects registered after (or at) a given ISO8601 compliant datetime."
+msgstr "将响应限制为在给定的符合ISO8601的日期时间之后（或之后）注册的对象。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:188
+#: src/API/Reports/Customers/Stats/Controller.php:285
+#: src/API/Reports/Customers/Controller.php:330
+#: src/API/Reports/Customers/Controller.php:482
+msgid "Limit response to objects registered before (or at) a given ISO8601 compliant datetime."
+msgstr "将响应限制为在给定的符合ISO8601的日期时间之前（或之前）注册的对象。"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:205
+#: src/API/Reports/Stock/Stats/Controller.php:118
+#: src/API/Reports/Customers/Stats/Controller.php:167
+#: src/API/Reports/Downloads/Stats/Controller.php:162
+#: src/API/Reports/Taxes/Stats/Controller.php:242
+#: src/API/Reports/Revenue/Stats/Controller.php:291
+#: src/API/Reports/Products/Stats/Controller.php:224
+#: src/API/Reports/Orders/Stats/Controller.php:263
+msgid "Totals data."
+msgstr "总计数据。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:153
+msgid "Average AOV per customer."
+msgstr "每个客户的平均AOV。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:146
+msgid "Average total spend per customer."
+msgstr "每位客户的平均总支出。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:140
+msgid "Average number of orders."
+msgstr "平均订单数。"
+
+#: src/API/Reports/Customers/Stats/Controller.php:134
+msgid "Number of customers."
+msgstr "客户数量。"
+
+#. translators: %s: parameter name
+#: src/API/Reports/TimeInterval.php:633
+msgid "%s must contain 2 valid dates."
+msgstr "%s必须包含2个有效日期。"
+
+#. translators: %s: parameter name
+#: src/API/Reports/TimeInterval.php:601
+msgid "%s must contain 2 numbers."
+msgstr "%s必须包含2个数字。"
+
+#. translators: 1: parameter name
+#: src/API/Reports/TimeInterval.php:589 src/API/Reports/TimeInterval.php:621
+msgid "%1$s is not a numerically indexed array."
+msgstr "%1$s 不是带数字索引的数组。"
+
+#: src/Notes/WC_Admin_Notes_New_Sales_Record.php:130
+msgid "View report"
+msgstr "查看报告"
+
+#: src/Notes/WC_Admin_Notes_New_Sales_Record.php:124
+msgid "New sales record!"
+msgstr "新的销售记录！"
+
+#. translators: 1 and 4: Date (e.g. October 16th), 2 and 3: Amount (e.g.
+#. $160.00)
+#: src/Notes/WC_Admin_Notes_New_Sales_Record.php:103
+msgid "Woohoo, %1$s was your record day for sales! Net Sales was %2$s beating the previous record of %3$s set on %4$s."
+msgstr "哇哦，%1$s是您的销售记录日期！净销售额为 %2$s，打破了之前 %4$s创下的 %3$s 记录。"
+
+#: src/Notes/WC_Admin_Notes_Historical_Data.php:85
+msgid "Get Started"
+msgstr "开始使用"
+
+#: src/Notes/WC_Admin_Notes_Historical_Data.php:77
+msgid "To view your historical analytics data, you must process your existing orders and customers."
+msgstr "要查看历史分析数据，您必须处理现有的订单和客户。"
+
+#: src/Notes/WC_Admin_Notes_Historical_Data.php:76
+msgid "WooCommerce Admin: Historical Analytics Data"
+msgstr "WooCommerce Admin：历史分析数据"
+
+#: src/Notes/WC_Admin_Note.php:587
+msgid "The admin note action label prop cannot be empty."
+msgstr "管理备注操作标签属性不能为空。"
+
+#: src/Notes/WC_Admin_Note.php:583
+msgid "The admin note action name prop cannot be empty."
+msgstr "管理备注操作名称属性不能为空。"
+
+#: src/Notes/WC_Admin_Note.php:499
+msgid "The admin note date prop cannot be empty."
+msgstr "管理备注日期属性不能为空。"
+
+#: src/Notes/WC_Admin_Note.php:486
+msgid "The admin note source prop cannot be empty."
+msgstr "管理备注源属性不能为空。"
+
+#. translators: %s: admin note status property.
+#: src/Notes/WC_Admin_Note.php:470
+msgid "The admin note status prop (%s) is not one of the supported statuses."
+msgstr "管理备注状态属性 (%s) 不是受支持的状态。"
+
+#: src/Notes/WC_Admin_Note.php:462
+msgid "The admin note status prop cannot be empty."
+msgstr "管理备注状态属性不能为空。"
+
+#: src/Notes/WC_Admin_Note.php:449
+msgid "The admin note content_data prop must be an instance of stdClass."
+msgstr "管理备注 content_data 属性必须是 stdClass 实例。"
+
+#: src/Notes/WC_Admin_Note.php:432
+msgid "The admin note content prop cannot be empty."
+msgstr "管理备注内容属性不能为空。"
+
+#: src/Notes/WC_Admin_Note.php:392
+msgid "The admin note title prop cannot be empty."
+msgstr "管理备注标题属性不能为空。"
+
+#: src/Notes/WC_Admin_Note.php:379
+msgid "The admin note locale prop cannot be empty."
+msgstr "管理备注区域设置属性不能为空。"
+
+#. translators: %s: admin note type.
+#: src/Notes/WC_Admin_Note.php:363
+msgid "The admin note type prop (%s) is not one of the supported types."
+msgstr "管理备注类型属性 (%s) 不是受支持的类型。"
+
+#: src/Notes/WC_Admin_Note.php:355
+msgid "The admin note type prop cannot be empty."
+msgstr "管理备注类型属性不能为空。"
+
+#: src/Notes/WC_Admin_Note.php:342
+msgid "The admin note name prop cannot be empty."
+msgstr "管理备注名称属性不能为空。"
+
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:405
+msgid "Renew Subscription"
+msgstr "续订"
+
+#. translators: date the subscription expired, e.g. Jun 7th 2018
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:380
+msgid "Your subscription expired on %s. Get a new subscription to continue receiving updates and access to support."
+msgstr "您的订阅已于%s到期。获取新订阅以继续接收更新并获得支持。"
+
+#. translators: name of the extension subscription that expired
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:374
+msgid "%s subscription expired"
+msgstr "%s订阅已过期"
+
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:342
+msgid "Enable Autorenew"
+msgstr "启用自动续订"
+
+#. translators: number of days until the subscription expires
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:319
+msgid "Your subscription expires in %d days. Enable autorenew to avoid losing updates and access to support."
+msgstr "您的订阅将于 %d 天后过期。启用自动续订，以防无法接收更新和访问支持。"
+
+#. translators: name of the extension subscription expiring soon
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:313
+msgid "%s subscription expiring soon"
+msgstr "%s订阅即将到期"
+
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:192
+#: src/Features/Onboarding.php:940 src/Features/Onboarding.php:944
+#: dist/chunks/29.9d67beb382e2ce4a09d0.js:712
+#: dist/chunks/30.2910fc66eb31471072a4.js:1161
+#: dist/chunks/42.cee7c33db46f1ba078f3.js:206
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:360
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:3846
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:4209
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:4505
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:360
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:3844
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:4207
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:4503
+#: dist/chunks/41.d7d58f66bf36ba0ae499.js:206
+msgid "Connect"
+msgstr "连接"
+
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:185
+msgid "Connect to get important product notifications and updates."
+msgstr "连接以获取重要的产品通知和更新。"
+
+#: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:184
+msgid "Connect to WooCommerce.com"
+msgstr "连接到WooCommerce.com"
+
+#: src/ReportsSync.php:97
+msgid "Report table data is being rebuilt.  Please allow some time for data to fully populate."
+msgstr "正在重新生成报告表格数据。请稍等片刻，以便数据充分填充。"
+
+#: src/API/Leaderboards.php:255
+msgid "Customer Name"
+msgstr "顾客姓名"
+
+#: src/API/Leaderboards.php:188
+msgid "Top Categories - Items Sold"
+msgstr "热门分类-已售商品"
+
+#: src/API/Leaderboards.php:318
+msgid "Top Products - Items Sold"
+msgstr "热门产品-已售商品"
+
+#: src/Features/AnalyticsDashboard.php:99
+#: dist/chunks/33.d957c7a8df6afc345752.js:1413
+#: dist/chunks/34.f8697c1d31eca3b1de52.js:1402 dist/app/index.js:5178
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: src/API/Reports/Taxes/Controller.php:306
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:145
+#: dist/chunks/18.641586025741e6eaf968.js:145
+msgid "Rate"
+msgstr "评级"
+
+#: src/API/Reports/Taxes/Controller.php:305
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:139
+#: dist/chunks/18.641586025741e6eaf968.js:139
+msgid "Tax Code"
+msgstr "税码"
+
+#: src/API/Reports/Taxes/Controller.php:309
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:158
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:1474
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1834
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2420
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1834
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2420
+#: dist/chunks/18.641586025741e6eaf968.js:158
+#: dist/chunks/18.641586025741e6eaf968.js:1474
+msgid "Shipping Tax"
+msgstr "运费税。"
+
+#: src/API/Reports/Taxes/Controller.php:308
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:154
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:1468
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1828
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2416
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1828
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2416
+#: dist/chunks/18.641586025741e6eaf968.js:154
+#: dist/chunks/18.641586025741e6eaf968.js:1468
+msgid "Order Tax"
+msgstr "订单税"
+
+#: src/API/Reports/Taxes/Controller.php:307
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:150
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:1462
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1822
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2412
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1822
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2412
+#: dist/chunks/18.641586025741e6eaf968.js:150
+#: dist/chunks/18.641586025741e6eaf968.js:1462
+msgid "Total Tax"
+msgstr "总税"
+
+#: src/API/Reports/Stock/Controller.php:527
+#: dist/chunks/16.66c64721855f7a9339c5.js:252
+#: dist/chunks/17.b72560c96ee6b8cc0379.js:252
+msgid "Product / Variation"
+msgstr "产品/变体"
+
+#: src/API/Reports/Revenue/Stats/Controller.php:199
+#: src/API/Reports/Revenue/Stats/Controller.php:457
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:202
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:1429
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1331
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2424
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1331
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2424
+#: dist/chunks/15.6543be67a4976e36f9e8.js:202
+#: dist/chunks/15.6543be67a4976e36f9e8.js:1429
+msgid "Shipping"
+msgstr "配送"
+
+#: src/API/Reports/Stock/Controller.php:528
+#: src/API/Reports/Variations/Controller.php:358
+#: src/API/Reports/Products/Controller.php:390
+#: dist/chunks/5.88800d5332efd00d661a.js:1147
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:156
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:156
+#: dist/chunks/16.66c64721855f7a9339c5.js:258
+#: dist/chunks/17.b72560c96ee6b8cc0379.js:258
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1147
+msgid "SKU"
+msgstr "SKU"
+
+#: src/API/Reports/Variations/Controller.php:357
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:151
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:151
+msgid "Product / Variation Title"
+msgstr "产品/变体标题"
+
+#: src/API/Reports/Products/Controller.php:395
+#: dist/chunks/5.88800d5332efd00d661a.js:1174
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:310
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:310
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1174
+msgid "Variations"
+msgstr "变体"
+
+#: src/API/Reports/Variations/Controller.php:360
+#: src/API/Reports/Products/Controller.php:392
+#: src/API/Reports/Orders/Controller.php:484
+msgid "N. Revenue"
+msgstr "净收入"
+
+#: src/API/Reports/Orders/Controller.php:483
+#: dist/chunks/13.d724fa3061159bd304ed.js:171
+#: dist/chunks/14.49811bcba1b9d3f84157.js:171
+msgid "Coupon(s)"
+msgstr "优惠券"
+
+#: src/API/Reports/Orders/Controller.php:481
+#: dist/chunks/13.d724fa3061159bd304ed.js:159
+#: dist/chunks/14.49811bcba1b9d3f84157.js:159
+msgid "Product(s)"
+msgstr "产品"
+
+#: src/API/Reports/Orders/Controller.php:480
+#: dist/chunks/13.d724fa3061159bd304ed.js:154
+#: dist/chunks/14.49811bcba1b9d3f84157.js:154
+msgid "Customer"
+msgstr "顾客"
+
+#: src/Features/Analytics.php:140 src/ReportCSVEmail.php:41
+#: src/API/Reports/Stock/Controller.php:530
+#: src/API/Reports/Variations/Controller.php:366
+#: src/API/Reports/Products/Controller.php:400
+#: dist/chunks/5.88800d5332efd00d661a.js:1181
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:183
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:183
+#: dist/chunks/8.37024602f6c58b44b383.js:1270
+#: dist/chunks/16.66c64721855f7a9339c5.js:267
+#: dist/chunks/16.66c64721855f7a9339c5.js:369
+#: dist/chunks/9.7678440a2bf8e0b752a5.js:1280
+#: dist/chunks/17.b72560c96ee6b8cc0379.js:267
+#: dist/chunks/17.b72560c96ee6b8cc0379.js:369
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1181 dist/app/index.js:3947
+#: dist/app/index.js:5758
+msgid "Stock"
+msgstr "库存"
+
+#: src/Features/Analytics.php:128 src/ReportCSVEmail.php:39
+#: src/API/Reports/Revenue/Stats/Controller.php:456
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:196
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:1423
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:274
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1325
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1325
+#: dist/chunks/15.6543be67a4976e36f9e8.js:196
+#: dist/chunks/15.6543be67a4976e36f9e8.js:1423
+#: dist/chunks/18.641586025741e6eaf968.js:274 dist/app/index.js:3939
+msgid "Taxes"
+msgstr "税收"
+
+#: src/Features/Analytics.php:98 src/ReportCSVEmail.php:34
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:343
+#: dist/chunks/15.6543be67a4976e36f9e8.js:343 dist/app/index.js:3919
+msgid "Revenue"
+msgstr "收入"
+
+#: src/API/Reports/Downloads/Controller.php:397
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:165
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:165
+msgid "IP"
+msgstr "IP"
+
+#: src/API/Reports/Downloads/Controller.php:396
+msgid "User Name"
+msgstr "用户名"
+
+#: src/API/Reports/Downloads/Controller.php:395
+#: src/API/Reports/Orders/Controller.php:478
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1993
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:158
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:1509
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:158
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:1509
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1993
+#: dist/chunks/13.d724fa3061159bd304ed.js:144
+#: dist/chunks/14.49811bcba1b9d3f84157.js:144
+msgid "Order #"
+msgstr "订单 #"
+
+#: src/API/Reports/Downloads/Controller.php:394
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:155
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:155
+msgid "File Name"
+msgstr "文件名"
+
+#: src/API/Reports/Downloads/Controller.php:393
+#: src/API/Reports/Products/Controller.php:389
+#: dist/chunks/5.88800d5332efd00d661a.js:1141
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:150
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:150
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1141
+msgid "Product Title"
+msgstr "产品标题"
+
+#: src/API/Reports/Downloads/Controller.php:392
+#: src/API/Reports/Revenue/Stats/Controller.php:451
+#: src/API/Reports/Orders/Controller.php:477
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:159
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:143
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:143
+#: dist/chunks/15.6543be67a4976e36f9e8.js:159
+#: dist/chunks/13.d724fa3061159bd304ed.js:137
+#: dist/chunks/14.49811bcba1b9d3f84157.js:137
+msgid "Date"
+msgstr "日期"
+
+#: src/API/Leaderboards.php:321 dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1937
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:1453
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:1453
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1937
+msgid "Product"
+msgstr "产品"
+
+#: src/Features/Onboarding.php:335 src/Features/Analytics.php:134
+#: src/ReportCSVEmail.php:40 src/API/Reports/Downloads/Stats/Controller.php:147
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1912
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2428
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:261
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:1428
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:261
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:1428
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1912
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2428 dist/app/index.js:3943
+#: dist/app/index.js:3955
+msgid "Downloads"
+msgstr "下载"
+
+#: src/API/Reports/Customers/Controller.php:600
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:639
+#: dist/chunks/12.81a5de16019a0cc85173.js:639
+msgid "Postal Code"
+msgstr "邮政编码"
+
+#: src/API/Reports/Customers/Controller.php:598
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:629
+#: dist/chunks/42.cee7c33db46f1ba078f3.js:534
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:719
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:719
+#: dist/chunks/12.81a5de16019a0cc85173.js:629
+#: dist/chunks/41.d7d58f66bf36ba0ae499.js:534
+msgid "City"
+msgstr "市"
+
+#: src/API/Reports/Customers/Controller.php:592
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:603
+#: dist/chunks/12.81a5de16019a0cc85173.js:603
+msgid "Sign Up"
+msgstr "注册"
+
+#: src/API/Reports/Customers/Controller.php:591
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:598
+#: dist/chunks/12.81a5de16019a0cc85173.js:598
+msgid "Last Active"
+msgstr "最后登录"
+
+#: src/Features/Analytics.php:146 src/ReportCSVEmail.php:42
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:787
+#: dist/chunks/12.81a5de16019a0cc85173.js:787 dist/app/index.js:3951
+#: dist/app/index.js:5212
+msgid "Customers"
+msgstr "客户"
+
+#: src/API/Reports/Customers/Controller.php:589
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:206
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:588
+#: dist/chunks/12.81a5de16019a0cc85173.js:206
+#: dist/chunks/12.81a5de16019a0cc85173.js:588
+msgid "Name"
+msgstr "名称"
+
+#: src/API/Reports/Customers/Controller.php:596
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:417
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:620
+#: dist/chunks/12.81a5de16019a0cc85173.js:417
+#: dist/chunks/12.81a5de16019a0cc85173.js:620
+msgid "AOV"
+msgstr "AOV"
+
+#: src/API/Reports/Customers/Controller.php:595 src/API/Leaderboards.php:261
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:390
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:615
+#: dist/chunks/12.81a5de16019a0cc85173.js:390
+#: dist/chunks/12.81a5de16019a0cc85173.js:615
+msgid "Total Spend"
+msgstr "总支出"
+
+#: src/API/Reports/Customers/Controller.php:593
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:330
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:607
+#: dist/chunks/12.81a5de16019a0cc85173.js:330
+#: dist/chunks/12.81a5de16019a0cc85173.js:607
+msgid "Email"
+msgstr "电子邮件"
+
+#: src/API/Reports/Customers/Controller.php:590
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1965
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:162
+#: dist/chunks/13.2a0a9c9a9543a94e0408.js:1481
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:162
+#: dist/chunks/12.69ef7a2ad38f3227372c.js:1481
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1965
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:302
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:594
+#: dist/chunks/12.81a5de16019a0cc85173.js:302
+#: dist/chunks/12.81a5de16019a0cc85173.js:594
+msgid "Username"
+msgstr "用户名"
+
+#: src/API/Reports/Coupons/Controller.php:307
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:158
+#: dist/chunks/10.1f472039f7549541a0d9.js:158
+msgid "Type"
+msgstr "类型"
+
+#: src/API/Reports/Coupons/Controller.php:306
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:155
+#: dist/chunks/10.1f472039f7549541a0d9.js:155
+msgid "Expires"
+msgstr "到期"
+
+#: src/API/Reports/Coupons/Controller.php:305
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:152
+#: dist/chunks/10.1f472039f7549541a0d9.js:152
+msgid "Created"
+msgstr "已建立"
+
+#: src/API/Reports/Coupons/Controller.php:304 src/API/Leaderboards.php:131
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:147
+#: dist/chunks/10.1f472039f7549541a0d9.js:147
+msgid "Amount Discounted"
+msgstr "折扣金额"
+
+#: src/API/Reports/Coupons/Controller.php:302 src/API/Leaderboards.php:125
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:134
+#: dist/chunks/10.1f472039f7549541a0d9.js:134
+msgid "Coupon Code"
+msgstr "优惠券代码"
+
+#: src/API/Reports/Coupons/Controller.php:319
+#: src/API/Reports/Products/Controller.php:428
+#: src/API/Reports/Products/Controller.php:429
+#: dist/chunks/5.88800d5332efd00d661a.js:1275
+#: dist/chunks/5.88800d5332efd00d661a.js:1278
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:218
+#: dist/chunks/10.1f472039f7549541a0d9.js:218
+#: dist/chunks/16.66c64721855f7a9339c5.js:314
+#: dist/chunks/17.b72560c96ee6b8cc0379.js:314
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1275
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1278 dist/components/index.js:113252
+#: dist/components/index.js:113253 dist/components/index.js:113261
+msgid "N/A"
+msgstr "N/A"
+
+#: src/API/Reports/Coupons/Stats/Controller.php:161
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:1477
+#: dist/chunks/10.1f472039f7549541a0d9.js:1477
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1732
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2404
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1732
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2404
+msgid "Discounted Orders"
+msgstr "折扣订单"
+
+#: src/API/Reports/Categories/Controller.php:332
+#: src/API/Reports/Products/Controller.php:394 src/API/Leaderboards.php:191
+#: dist/chunks/5.88800d5332efd00d661a.js:1171
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:220
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:220
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1171
+msgid "Category"
+msgstr "类别"
+
+#: src/Features/Analytics.php:116 src/ReportCSVEmail.php:37
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:355
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:355 dist/app/index.js:3931
+msgid "Categories"
+msgstr "分类"
+
+#: src/API/Reports/Categories/Controller.php:334
+#: src/API/Reports/Revenue/Stats/Controller.php:458
+msgid "Net Revenue"
+msgstr "净收入"
+
+#: src/Features/Analytics.php:84 dist/app/index.js:5197 dist/app/index.js:5206
+#: dist/app/index.js:5228
+msgid "Analytics"
+msgstr "分析"
+
+#: src/API/Reports/Categories/Controller.php:333
+#: src/API/Reports/Variations/Controller.php:359
+#: src/API/Reports/Products/Stats/Controller.php:160
+#: src/API/Reports/Products/Controller.php:391
+#: src/API/Reports/Orders/Controller.php:482 src/API/Leaderboards.php:194
+#: src/API/Leaderboards.php:324 dist/chunks/5.88800d5332efd00d661a.js:1152
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:161
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:546
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:161
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:546
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:69
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:226
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1373
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2396
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1373
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2396
+#: dist/chunks/13.d724fa3061159bd304ed.js:165
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:69
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:226
+#: dist/chunks/14.49811bcba1b9d3f84157.js:165
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1152
+msgid "Items Sold"
+msgstr "已售项目"
+
+#. translators: 1: URL of GitHub Repository build page
+#: src/FeaturePlugin.php:286
+msgid "Or you can download a pre-built version of the plugin by visiting <a href=\"%1$s\">the releases page in the repository</a>."
+msgstr "或者，您可以访问存储库中的<a href=\"%1$s\">发布页面</a>，下载插件的预构建版本。"
+
+#: src/FeaturePlugin.php:283
+msgid "You have installed a development version of WooCommerce Admin which requires files to be built. From the plugin directory, run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files."
+msgstr "您已经安装了WooCommerce Admin的开发版本，该版本需要构建文件。在插件目录中，运行<code>npm install</code>来安装依赖项，运行<code>npm run build</code>来构建文件。"
+
+#: src/API/Reports/Customers/Controller.php:251
+#: src/API/Reports/Taxes/Controller.php:178
+msgid "Country / Region."
+msgstr "国家/地区。"
+
+#: src/API/Reports/Customers/Controller.php:597
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:239
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:625
+#: dist/chunks/42.cee7c33db46f1ba078f3.js:525
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:710
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:710
+#: dist/chunks/12.81a5de16019a0cc85173.js:239
+#: dist/chunks/12.81a5de16019a0cc85173.js:625
+#: dist/chunks/41.d7d58f66bf36ba0ae499.js:525
+msgid "Country / Region"
+msgstr "国家/地区"
+
+#: src/Features/Onboarding.php:309
+msgid "CBD and other hemp-derived products"
+msgstr "CBD和其他大麻制品"
+
+#. translators: 1: URL of WordPress.org, 2: The minimum WordPress version
+#. number
+#: src/FeaturePlugin.php:235
+msgid "The WooCommerce Admin feature plugin requires <a href=\"%1$s\">WordPress</a> %2$s or greater to be installed and active."
+msgstr "WooCommerce Admin功能插件需要<a href=\"%1$s\"> WordPress</a>%2$s或更高版本才能安装并激活。"
+
+#. translators: %s: plugin slug (example: woocommerce-services)
+#: src/API/Plugins.php:300
+msgid "The requested plugin `%s` could not be installed."
+msgstr "无法安装必须的插件`%s`。"
+
+#: includes/emails/html-admin-report-export-download.php:17
+msgid "Download your %s Report"
+msgstr "下载您的%s报告"
+
+#. translators: %1$s: report name, %2$s: download URL
+#: includes/emails/plain-admin-report-export-download.php:15
+msgid "Download your %1$s Report: %2$s"
+msgstr "下载您的%1$s报告：%2$s"
+
+#. translators: 1: composer command. 2: plugin directory
+#: woocommerce-admin.php:38 woocommerce-admin.php:56
+msgid "Your installation of the WooCommerce Admin feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "WooCommerce Admin功能插件的安装不完整。请在%2$s目录中运行%1$s 。"
+
+#: includes/connect-existing-pages.php:292
+msgid "Edit attribute"
+msgstr "编辑属性"
+
+#: includes/connect-existing-pages.php:272
+msgid "Edit tag"
+msgstr "编辑标签"
+
+#: includes/connect-existing-pages.php:262
+msgid "Product tags"
+msgstr "产品标签"
+
+#: includes/connect-existing-pages.php:252
+msgid "Edit category"
+msgstr "编辑类别"
+
+#: includes/connect-existing-pages.php:242
+msgid "Product categories"
+msgstr "产品类别"
+
+#: includes/connect-existing-pages.php:232
+msgid "Export Products"
+msgstr "导出产品"
+
+#: includes/connect-existing-pages.php:222
+msgid "Import Products"
+msgstr "导入产品"
+
+#: src/Notes/WC_Admin_Notes_Order_Milestones.php:224
+msgid "Another order milestone! Take a look at your Orders Report to review your orders to date."
+msgstr "又完成一个订单里程碑！查看您的“订单报告”，检查到目前为止的订单。"
+
+#: src/Notes/WC_Admin_Notes_Order_Milestones.php:247
+msgid "Browse"
+msgstr "浏览"
+
+#: src/Notes/WC_Admin_Notes_Order_Milestones.php:215
+msgid "You've hit the 10 orders milestone! Look at you go. Browse some WooCommerce success stories for inspiration."
+msgstr "您已完成 10 个订单里程碑！继续向前。浏览一些 WooCommerce 成功案例，从中获得灵感。"
+
+#. translators: Number of orders processed.
+#: src/Notes/WC_Admin_Notes_Order_Milestones.php:196
+msgid "Congratulations on processing %s orders!"
+msgstr "恭喜您处理了 %s 个订单！"
+
+#: src/Notes/WC_Admin_Notes_Online_Clothing_Store.php:89
+#: src/Notes/WC_Admin_Notes_Order_Milestones.php:241
+#: src/Notes/WC_Admin_Notes_Start_Dropshipping_Business.php:75
+#: src/Notes/WC_Admin_Notes_Choose_Niche.php:65
+#: src/Notes/WC_Admin_Notes_Onboarding_Payments.php:71
+#: src/Notes/WC_Admin_Notes_Migrate_From_Shopify.php:70
+#: src/Notes/WC_Admin_Notes_WooCommerce_Payments.php:108
+#: src/Notes/WC_Admin_Notes_Real_Time_Order_Alerts.php:57
+#: src/Notes/WC_Admin_Notes_Draw_Attention.php:77
+#: src/Notes/WC_Admin_Notes_EU_VAT_Number.php:53
+#: src/Notes/WC_Admin_Notes_Mobile_App.php:47
+#: dist/chunks/7.b903e02ec5fc910e7c73.js:600
+#: dist/chunks/7.986a96b93c825fd75d99.js:1435
+#: dist/chunks/7.986a96b93c825fd75d99.js:1449
+#: dist/chunks/6.8a01ef3df76cbe04b5e5.js:1449
+#: dist/chunks/6.8a01ef3df76cbe04b5e5.js:1463
+#: dist/chunks/42.cee7c33db46f1ba078f3.js:2793
+#: dist/chunks/8.3c33b2acea1dd5f9e047.js:610
+#: dist/chunks/41.d7d58f66bf36ba0ae499.js:2793
+msgid "Learn more"
+msgstr "了解更多"
+
+#: includes/connect-existing-pages.php:282
+msgid "Attributes"
+msgstr "属性"
+
+#: includes/connect-existing-pages.php:212
+msgid "Edit Product"
+msgstr "编辑产品"
+
+#: includes/connect-existing-pages.php:26 src/Features/Navigation.php:197
+msgid "Extensions"
+msgstr "扩展程序"
+
+#: includes/connect-existing-pages.php:44
+msgid "Logs"
+msgstr "日志"
+
+#: includes/connect-existing-pages.php:43 src/Features/Navigation.php:233
+msgid "Tools"
+msgstr "工具类"
+
+#: includes/connect-existing-pages.php:42 src/Features/Navigation.php:240
+msgid "System status"
+msgstr "系统状态"
+
+#: includes/connect-existing-pages.php:30
+msgid "Reports"
+msgstr "报告"
+
+#: includes/connect-existing-pages.php:182
+msgid "Edit Coupon"
+msgstr "编辑优惠券"
+
+#: includes/connect-existing-pages.php:151
+msgid "Edit Order"
+msgstr "编辑订单"
+
+#: includes/connect-existing-pages.php:141
+#: includes/connect-existing-pages.php:172
+#: includes/connect-existing-pages.php:202
+msgid "Add New"
+msgstr "新增"
+
+#: includes/connect-existing-pages.php:34 src/Features/Navigation.php:225
+#: src/Features/Analytics.php:152 dist/chunks/7.b903e02ec5fc910e7c73.js:703
+#: dist/chunks/33.d957c7a8df6afc345752.js:1405
+#: dist/chunks/8.3c33b2acea1dd5f9e047.js:713
+#: dist/chunks/44.c1db5d77c3c79d0dd95b.js:5053
+#: dist/chunks/45.d4b033fe8c12f18923f4.js:5051
+#: dist/chunks/34.f8697c1d31eca3b1de52.js:1394 dist/app/index.js:5206
+msgid "Settings"
+msgstr "设置"
+
+#: includes/connect-existing-pages.php:38
+#: src/API/Reports/Stock/Controller.php:529
+#: src/API/Reports/Variations/Controller.php:365
+#: src/API/Reports/Products/Controller.php:399
+#: src/API/Reports/Orders/Controller.php:479
+#: dist/chunks/5.88800d5332efd00d661a.js:1178
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:180
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:180
+#: dist/chunks/16.66c64721855f7a9339c5.js:262
+#: dist/chunks/13.d724fa3061159bd304ed.js:149
+#: dist/chunks/17.b72560c96ee6b8cc0379.js:262
+#: dist/chunks/14.49811bcba1b9d3f84157.js:149
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1178
+msgid "Status"
+msgstr "状态"
+
+#: includes/connect-existing-pages.php:161 src/Features/Analytics.php:122
+#: src/Features/Coupons.php:76 src/Features/Coupons.php:77
+#: src/ReportCSVEmail.php:38 src/API/Reports/Revenue/Stats/Controller.php:455
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:184
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:1412
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:284
+#: dist/chunks/10.1f472039f7549541a0d9.js:284
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1314
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1314
+#: dist/chunks/15.6543be67a4976e36f9e8.js:184
+#: dist/chunks/15.6543be67a4976e36f9e8.js:1412
+#: dist/chunks/13.d724fa3061159bd304ed.js:172
+#: dist/chunks/14.49811bcba1b9d3f84157.js:172 dist/app/index.js:3935
+msgid "Coupons"
+msgstr "优惠券"
+
+#: includes/connect-existing-pages.php:191 src/Features/Navigation.php:189
+#: src/Features/Analytics.php:110 src/ReportCSVEmail.php:36
+#: src/API/Reports/Categories/Controller.php:335
+#: dist/chunks/5.88800d5332efd00d661a.js:1345
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:238
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1569
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1569
+#: dist/chunks/13.d724fa3061159bd304ed.js:160
+#: dist/chunks/13.d724fa3061159bd304ed.js:1602
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:238
+#: dist/chunks/14.49811bcba1b9d3f84157.js:160
+#: dist/chunks/14.49811bcba1b9d3f84157.js:1602
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1345 dist/app/index.js:3923
+msgid "Products"
+msgstr "产品"
+
+#: includes/connect-existing-pages.php:130 src/Features/Navigation.php:181
+#: src/Features/Analytics.php:104 src/ReportCSVEmail.php:35
+#: src/API/Reports/Coupons/Controller.php:303
+#: src/API/Reports/Categories/Controller.php:336
+#: src/API/Reports/Variations/Controller.php:361
+#: src/API/Reports/Customers/Controller.php:594
+#: src/API/Reports/Taxes/Controller.php:310
+#: src/API/Reports/Revenue/Stats/Controller.php:452
+#: src/API/Reports/Products/Controller.php:393
+#: src/API/Reports/Orders/Stats/Controller.php:164 src/API/Leaderboards.php:128
+#: src/API/Leaderboards.php:258 dist/chunks/5.88800d5332efd00d661a.js:1166
+#: dist/chunks/7.b903e02ec5fc910e7c73.js:725
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:175
+#: dist/chunks/15.413a29db1c4e7f2eefdb.js:558
+#: dist/chunks/16.1a3c8e4420d552b12da0.js:166
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:175
+#: dist/chunks/14.6880b45e146a19c0ec7e.js:558
+#: dist/chunks/11.b3e2eb89a0181fa5e2f2.js:140
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:162
+#: dist/chunks/17.f9fa9ea72af1f43782bf.js:1480
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:81
+#: dist/chunks/9.656fdc0ca7358fd2c4df.js:243
+#: dist/chunks/10.1f472039f7549541a0d9.js:140
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1385
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1497
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:1840
+#: dist/chunks/25.94fe7ee5d8a8ea02d1f7.js:2388
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1385
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1497
+#: dist/chunks/26.cce7c721f8ea92c47345.js:1840
+#: dist/chunks/26.cce7c721f8ea92c47345.js:2388
+#: dist/chunks/15.6543be67a4976e36f9e8.js:166
+#: dist/chunks/13.d724fa3061159bd304ed.js:374
+#: dist/chunks/13.d724fa3061159bd304ed.js:1530
+#: dist/chunks/11.a6c81353d61d43ca90c5.js:610
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:81
+#: dist/chunks/10.6e5e757ab15373ddf47c.js:243
+#: dist/chunks/14.49811bcba1b9d3f84157.js:374
+#: dist/chunks/14.49811bcba1b9d3f84157.js:1530
+#: dist/chunks/18.641586025741e6eaf968.js:162
+#: dist/chunks/18.641586025741e6eaf968.js:1480
+#: dist/chunks/8.3c33b2acea1dd5f9e047.js:735
+#: dist/chunks/4.6536213eda1b3b7be25c.js:1166
+#: dist/chunks/12.81a5de16019a0cc85173.js:610 dist/app/index.js:3927
+#: dist/app/index.js:5753
+msgid "Orders"
+msgstr "订单"
+
+#. Author of the plugin
+#: includes/connect-existing-pages.php:62 src/Loader.php:894
+#: src/PageController.php:184
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Plugin Name of the plugin
+#: src/Loader.php:962
+msgid "WooCommerce Admin"
+msgstr "WooCommerce Admin"

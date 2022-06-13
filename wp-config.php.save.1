@@ -1,0 +1,143 @@
+<?php
+
+define('WP_ALLOW_MULTISITE', false);
+
+
+/**
+ * The base configuration for WordPress
+ *
+ * The wp-config.php creation script uses this file during the
+ * installation. You don't have to use the web site, you can
+ * copy this file to "wp-config.php" and fill in the values.
+ *
+ * This file contains the following configurations:
+ *
+ * * MySQL settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @link https://codex.wordpress.org/Editing_wp-config.php
+ *
+ * @package WordPress
+ */
+
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'puerfons_db' );
+
+/** MySQL database username */
+define( 'DB_USER', 'ip_db_user' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', '{9yC8f]52@S8Q&(y' );
+
+/** MySQL hostname */
+define( 'DB_HOST', 'localhost:3306' );
+
+/** Database Charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The Database Collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
+
+define('ALLOW_UNFILTERED_UPLOADS', true);
+
+/**#@+
+ * Authentication Unique Keys and Salts.
+ *
+ * Change these to different unique phrases!
+ * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+ * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ *
+ * @since 2.6.0
+ */
+define('AUTH_KEY', '43915e6ba4c397b60c86a5209edb84e962b46d9aaa851d865773d3d20e3c3224');
+define('SECURE_AUTH_KEY', 'd163f3d7beb2df4884643025283167c48aa04d18396248c73249bc51e1fe4a27');
+define('LOGGED_IN_KEY', 'aafc34b9755415199e27741e9eca7658b545559d147c71b20e0eab9bc88d60a7');
+define('NONCE_KEY', '5f688e473515345526508c247b7ff65cadc652a4ba1de2f38c60e4ff75afddc2');
+define('AUTH_SALT', 'c8333ed4a942fd2164c9ffacb53c3b24469fbd99e105a0b894b58794bd9da638');
+define('SECURE_AUTH_SALT', '15ada6c273a7fe1b2976e783739f964a890a3731cd47942e7dc77826ec18edbe');
+define('LOGGED_IN_SALT', 'd3b90cb80d8e09aa87edfd1a4929a6ead28ae0ff18727e77208698bed77ba9c9');
+define('NONCE_SALT', 'ebf625c5e55b7ccae0939d5fe8bb926add5433f0b69182ddae3368c7eb3d129b');
+
+/**#@-*/
+
+/**
+ * WordPress Database Table prefix.
+ *
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ */
+$table_prefix = 'wp_';
+
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the Codex.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
+ */
+define( 'WP_DEBUG', false );
+
+/* That's all, stop editing! Happy publishing. */
+
+define( 'MULTISITE', true );
+define( 'SUBDOMAIN_INSTALL', true );
+$base = '/';
+define( 'DOMAIN_CURRENT_SITE', '64.227.13.14/puerfons' );
+define( 'PATH_CURRENT_SITE', '/' );
+define( 'SITE_ID_CURRENT_SITE', 1 );
+define( 'BLOG_ID_CURRENT_SITE', 1 );
+
+define( 'COOKIE_DOMAIN', $_SERVER['HTTP_HOST'] );
+
+
+define('FS_METHOD', 'direct');
+
+
+/** Absolute path to the WordPress directory. */
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+}
+
+/** Sets up WordPress vars and included files. */
+require_once( ABSPATH . 'wp-settings.php' );
+
+define('WP_TEMP_DIR', '/opt/bitnami/apps/wordpress/tmp');
+
+
+//  Disable pingback.ping xmlrpc method to prevent Wordpress from participating in DDoS attacks
+//  More info at: https://docs.bitnami.com/general/apps/wordpress/troubleshooting/xmlrpc-and-pingback/
+
+if ( !defined( 'WP_CLI' ) ) {
+    // remove x-pingback HTTP header
+    add_filter('wp_headers', function($headers) {
+        unset($headers['X-Pingback']);
+        return $headers;
+    });
+    // disable pingbacks
+    add_filter( 'xmlrpc_methods', function( $methods ) {
+            unset( $methods['pingback.ping'] );
+            return $methods;
+    });
+    add_filter( 'auto_update_translation', '__return_false' );
+}
+
+define('WP_MEMORY_LIMIT', '256M');
+
+/** Enable Cache by WP Rocket */
+define( 'WP_CACHE', true );
+
+
+//Begin Really Simple SSL session cookie settings
+  @ini_set('session.cookie_httponly', true);
+  @ini_set('session.cookie_secure', true);
+  @ini_set('session.use_only_cookies', true);
+//END Really Simple SSL cookie settings
+
