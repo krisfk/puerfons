@@ -2407,7 +2407,7 @@ html[lang^='zh-hant'] .gold-subheading {
 }
 
 .pue-section p {
-    display: none;
+    /* display: none; */
 }
 
 .page-template-page-template-science-ingredients-nad .pue-section.pue-section-2,
