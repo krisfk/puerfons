@@ -300,7 +300,7 @@ echo $term->name.' / '.get_field('main_title').' '.get_field('second_title');
                     <div class="product-thumbnail"
                         style="background-image:url('<?php echo get_the_post_thumbnail_url(); ?>');">
                         <a href="<?php the_permalink(); ?>">
-                            <img src="https://staging.puerfons.com/wp-content/themes/puerfons/img/thumbnail-scale.png">
+                            <!-- <img src="https://staging.puerfons.com/wp-content/themes/puerfons/img/thumbnail-scale.png"> -->
                         </a>
                     </div>
                     <div class="product-name"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></div>
