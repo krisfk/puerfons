@@ -918,6 +918,14 @@ html[lang^='zh-hant'] .section-scribe h4 {
     background-position: center center;
 }
 
+
+/*  */
+
+.product-thumbnail a {
+    height: 315px;
+    width: 315px;
+}
+
 .product-thumbnail img {
     width: 100%;
     height: auto;
