@@ -3256,6 +3256,10 @@ html[lang^='zh-hant'] .page-template-page-template-science-ingredients-nmn .mile
     margin: 0 auto 20px auto;
 }
 
+.nico-table td {
+    height: 60px;
+}
+
 .nico-table td.table-col-1 {
     background: #fff;
     vertical-align: middle;
