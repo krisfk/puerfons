@@ -916,6 +916,7 @@ html[lang^='zh-hant'] .section-scribe h4 {
 .product-thumbnail {
     background-size: cover;
     background-position: center center;
+    height: 315px;
 }
 
 
