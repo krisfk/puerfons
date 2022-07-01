@@ -2854,7 +2854,8 @@ form#sib_signup_form_2 .sib-default-btn:hover {
 }
 
 .benefits-list-ul li.benefits-list-ul-li img {
-    height: 100px;
+    /* height: 100px; */
+    height: 155px;
 }
 
 
